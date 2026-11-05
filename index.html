@@ -1,0 +1,967 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Al-Medina Bremen | Manakish, Pide, Dürüm und Fleischerei</title>
+<meta name="description" content="Al-Medina in Bremen-Nord: Manakish, Pide, Pizza, Dürüm und Tellergerichte, Frühstück ab 9 Uhr. Abholen in der Sagerstraße 45 oder über Lieferando bestellen.">
+<link rel="canonical" href="https://www.al-medina-bremen.de/">
+<meta name="theme-color" content="#1A1612">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="de_DE">
+<meta property="og:site_name" content="Al-Medina Bremen">
+<meta property="og:title" content="Al-Medina Bremen | Manakish, Pide, Dürüm und Fleischerei">
+<meta property="og:description" content="Al-Medina in Bremen-Nord: Manakish, Pide, Pizza, Dürüm und Tellergerichte, Frühstück ab 9 Uhr. Abholen in der Sagerstraße 45 oder über Lieferando bestellen.">
+<meta property="og:url" content="https://www.al-medina-bremen.de/">
+<meta property="og:image" content="https://www.al-medina-bremen.de/og-bild.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Al-Medina Bremen, Teller mit Shawarma Rind, Salat und Kartoffeln">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/icon-512.png" type="image/png" sizes="512x512">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preload" href="/fonts/big-shoulders-display-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/figtree-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="/img/tellergerichte-shawarma-rind-teller-1200-85d147ff.webp" imagesrcset="/img/tellergerichte-shawarma-rind-teller-400-befbd73d.webp 400w, /img/tellergerichte-shawarma-rind-teller-800-85d147ff.webp 800w, /img/tellergerichte-shawarma-rind-teller-1200-85d147ff.webp 1200w" imagesizes="(min-width: 64rem) 50vw, 100vw" fetchpriority="high">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","@id":"https://www.al-medina-bremen.de/#restaurant","name":"Al-Medina","legalName":"Al-Medina UG (haftungsbeschränkt)","description":"Restaurant und Fleischerei in Bremen-Nord mit Manakish, Pide, Pizza, Dürüm, Wraps und Tellergerichten. Frühstück ab 9 Uhr.","url":"https://www.al-medina-bremen.de/","telephone":"+49 421 49151178","image":"https://www.al-medina-bremen.de/og-bild.jpg","address":{"@type":"PostalAddress","streetAddress":"Sagerstraße 45","postalCode":"28757","addressLocality":"Bremen","addressCountry":"DE"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"09:00","closes":"19:00"}],"servesCuisine":["Arabisch","Türkisch"],"hasMenu":"https://www.al-medina-bremen.de/#speisekarte","priceRange":"€","sameAs":["https://www.tiktok.com/@almedinabremen","https://share.google/3YFYoKey8p1WypJS1"]}</script>
+<style>
+@font-face{font-family:'Big Shoulders Display';font-style:normal;font-weight:800;font-display:swap;src:url(/fonts/big-shoulders-display-latin-800-normal.woff2) format('woff2')}
+@font-face{font-family:'Figtree';font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/figtree-latin-400-normal.woff2) format('woff2')}
+@font-face{font-family:'Figtree';font-style:normal;font-weight:600;font-display:swap;src:url(/fonts/figtree-latin-600-normal.woff2) format('woff2')}
+@font-face{font-family:'Figtree';font-style:normal;font-weight:700;font-display:swap;src:url(/fonts/figtree-latin-700-normal.woff2) format('woff2')}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;font-display:swap;src:url(/fonts/ibm-plex-mono-latin-600-normal.woff2) format('woff2')}
+/* Al-Medina Bremen. Farben, Schriften und Bildsprache laut Markenauftritt. */
+:root {
+  --dunkel: #1A1612;
+  --stein: #EFEEE9;
+  --weiss: #FFFFFF;
+  --olive: #4C5A1F;
+  --olive-tief: #3D4818;
+  --rot: #9E2B25;
+  --grau: #6C665F;
+  --stein-auf-dunkel: rgba(239, 238, 233, .74);
+  --linie-hell: rgba(26, 22, 18, .16);
+  --linie-dunkel: rgba(239, 238, 233, .2);
+  --display: 'Big Shoulders Display', 'Arial Narrow', 'Roboto Condensed', sans-serif;
+  --text: 'Figtree', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --mono: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+  --rand: clamp(1rem, 4vw, 3rem);
+  --breite: 78rem;
+  --fokus: var(--dunkel);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-padding-top: 4.5rem; }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+body {
+  margin: 0;
+  background: var(--stein);
+  color: var(--dunkel);
+  font: 400 1.0625rem/1.55 var(--text);
+  overflow-x: clip;
+}
+img { display: block; max-width: 100%; height: auto; }
+a { color: inherit; text-underline-offset: .18em; text-decoration-thickness: .08em; }
+a:hover { text-decoration-thickness: .14em; }
+:focus-visible { outline: 3px solid var(--fokus); outline-offset: 3px; border-radius: 4px; }
+.dunkel { --fokus: var(--stein); background: var(--dunkel); color: var(--stein); }
+p { margin: 0 0 1em; }
+h1, h2, h3, h4 { margin: 0; font-family: var(--display); font-weight: 800; text-transform: uppercase; line-height: 1.05; letter-spacing: .005em; }
+sup { font-family: var(--text); font-weight: 600; font-size: .62em; line-height: 0; vertical-align: .9em; text-transform: none; letter-spacing: 0; margin-left: .12em; }
+
+.nobr { white-space: nowrap; }
+.vh { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; }
+.innen { max-width: var(--breite); margin-inline: auto; padding-inline: var(--rand); }
+.preis { font-family: var(--mono); font-weight: 600; white-space: nowrap; font-variant-numeric: tabular-nums; }
+
+.sprung { position: absolute; left: 1rem; top: -4rem; z-index: 50; background: var(--weiss); color: var(--dunkel); padding: .75rem 1rem; font-weight: 700; border-radius: 6px; }
+.sprung:focus { top: 1rem; }
+
+/* Logo-Fläche: Wortmarke oder hochgeladenes Logo */
+.logo--wortmarke { font-family: var(--display); font-weight: 800; text-transform: uppercase; letter-spacing: .01em; line-height: .8; white-space: nowrap; }
+.logo--bild { display: block; width: auto; }
+
+/* Kopfzeile */
+.kopf { position: relative; z-index: 2; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .25rem 1.5rem; padding-block: 1rem; }
+.kopf__marke { text-decoration: none; font-size: 1.75rem; }
+.kopf__marke .logo--bild { height: 1.75rem; }
+.kopf nav ul { display: flex; flex-wrap: wrap; gap: .25rem 1.25rem; margin: 0; padding: 0; list-style: none; font-weight: 600; font-size: .95rem; }
+.kopf nav a { text-decoration: none; display: inline-block; padding-block: .5rem; }
+.kopf nav a:hover { text-decoration: underline; }
+.kopf__nur-gross { display: none; }
+
+/* Hero */
+.hero { position: relative; overflow: hidden; }
+.hero__inhalt { position: relative; z-index: 1; padding-bottom: calc(60vw + 1rem); }
+.hero__marke { font-size: min(21.5vw, 13.5rem); margin-top: clamp(1rem, 4vw, 3rem); }
+.hero__marke .logo--bild { width: min(100%, 34rem); height: auto; margin-bottom: clamp(1.25rem, 4vw, 2.25rem); }
+.hero__claim { font-family: var(--display); font-weight: 800; text-transform: uppercase; font-size: clamp(1.9rem, 7.4vw, 3.6rem); line-height: 1.05; margin: .9rem 0 1rem; max-width: 14ch; }
+.hero__text { color: var(--stein-auf-dunkel); max-width: 34ch; font-size: 1.125rem; }
+.hero__aktionen { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1.5rem; }
+.hero__hinweis { color: var(--stein-auf-dunkel); font-size: .95rem; max-width: 44ch; margin: 1rem 0 0; }
+.hero__rabatt { display: inline-block; margin: 1rem 0 0; padding: .45rem 1rem; border-radius: 999px; background: var(--stein); color: var(--dunkel); font-weight: 700; }
+.hero__teller {
+  position: absolute; z-index: 0; border-radius: 50%;
+  width: 122vw; aspect-ratio: 1; left: -11vw; bottom: -62vw;
+  box-shadow: 0 0 0 1px var(--linie-dunkel), 0 30px 80px rgba(0, 0, 0, .45);
+}
+.hero__teller img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }
+@media (prefers-reduced-motion: no-preference) {
+  .hero__teller img { animation: servieren 1.4s cubic-bezier(.2, .7, .2, 1) both; }
+  @keyframes servieren { from { transform: rotate(-14deg) scale(1.04); } to { transform: none; } }
+}
+
+.knopf {
+  display: inline-flex; flex-direction: column; justify-content: center; gap: .1rem;
+  min-height: 3.5rem; padding: .7rem 1.5rem; border-radius: 999px;
+  font-weight: 700; font-size: 1.05rem; line-height: 1.2; text-decoration: none;
+  border: 2px solid transparent;
+}
+.knopf small { font-weight: 400; font-size: .85rem; }
+.knopf--olive { background: var(--olive); color: var(--weiss); }
+.knopf--olive:hover { background: var(--olive-tief); }
+.knopf--olive .preis { font-size: .95rem; letter-spacing: .02em; }
+.knopf--rahmen { border-color: var(--stein); color: var(--stein); }
+.knopf--rahmen:hover { background: rgba(239, 238, 233, .1); }
+
+/* Abschnitte */
+.abschnitt { padding-block: clamp(3.5rem, 9vw, 7rem); }
+.abschnitt__titel { font-size: clamp(3rem, 13vw, 7.5rem); margin-bottom: clamp(1.5rem, 4vw, 2.5rem); }
+
+/* Menüs */
+.menues { border-top: 1px solid var(--linie-dunkel); }
+.menues__liste { display: grid; gap: 3rem; margin: 0; padding: 0; list-style: none; }
+.menu__bild { width: min(100%, 22rem); aspect-ratio: 1; border-radius: 50%; object-fit: cover; margin-bottom: 1.5rem; }
+.menu__nr { font-family: var(--mono); font-weight: 600; font-size: .9rem; color: var(--stein-auf-dunkel); margin: 0 0 .35rem; }
+.menu__name { font-size: clamp(2.4rem, 9vw, 3.25rem); margin-bottom: .6rem; }
+.menu__inhalt { color: var(--stein-auf-dunkel); max-width: 30ch; }
+.menu__preise { display: flex; align-items: baseline; flex-wrap: wrap; gap: .25rem 1rem; margin: 0; }
+.menu__preise .preis { font-size: 2.25rem; color: var(--weiss); }
+.menu__statt { color: var(--stein-auf-dunkel); font-size: .95rem; }
+.menu__statt s { font-family: var(--mono); font-weight: 600; }
+
+/* Frühstück */
+.fruehstueck { --fokus: var(--weiss); background: var(--olive); color: var(--weiss); }
+.fruehstueck__raster { display: grid; gap: 2rem; align-items: center; }
+.fruehstueck h2 { font-size: clamp(3.25rem, 15vw, 8.5rem); margin-bottom: 1.5rem; }
+.fruehstueck p { max-width: 38ch; font-size: 1.15rem; }
+.fruehstueck__bild { width: min(70vw, 24rem); aspect-ratio: 1; border-radius: 50%; object-fit: cover; box-shadow: 0 24px 60px rgba(0, 0, 0, .3); }
+.fruehstueck a { font-weight: 700; }
+
+/* Speisekarte */
+.bestellwege { display: grid; margin: 0 0 2rem; border-top: 3px solid var(--dunkel); }
+.bestellweg { padding: 1.5rem 0 1.75rem; }
+.bestellweg + .bestellweg { border-top: 1px solid var(--linie-hell); }
+.bestellweg h3 { font-size: clamp(1.9rem, 7vw, 2.4rem); margin-bottom: .6rem; }
+.bestellweg p { margin: 0 0 1.1rem; max-width: 42ch; color: var(--grau); }
+.bestellweg strong { color: var(--dunkel); font-weight: 600; }
+.bestellweg__rabatt { display: inline-block; padding: .3rem .9rem; border-radius: 999px; background: var(--dunkel); color: var(--stein) !important; font-weight: 700; }
+.bestellweg__link { display: inline-block; padding-block: .5rem; font-weight: 700; color: var(--dunkel); }
+.karte__legende { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; margin: 0 0 2rem; padding: 0; list-style: none; color: var(--grau); font-size: .95rem; }
+.karte__legende li { display: flex; align-items: center; gap: .4rem; }
+.katnav { position: sticky; top: 0; z-index: 10; background: var(--stein); border-bottom: 1px solid var(--linie-hell); }
+.katnav ul { display: flex; gap: .5rem; margin: 0; padding: .75rem var(--rand); list-style: none; overflow-x: auto; scrollbar-width: none; max-width: var(--breite); margin-inline: auto; }
+.katnav ul::-webkit-scrollbar { display: none; }
+.katnav a { display: block; white-space: nowrap; padding: .45rem .9rem; border: 1.5px solid var(--dunkel); border-radius: 999px; text-decoration: none; font-weight: 600; font-size: .9rem; }
+.katnav a:hover { background: var(--dunkel); color: var(--stein); }
+
+.kategorie { padding-top: clamp(2.5rem, 6vw, 4rem); }
+.kategorie__titel { font-size: clamp(2.75rem, 11vw, 5rem); padding-bottom: .9rem; border-bottom: 3px solid var(--dunkel); margin-bottom: 1.5rem; }
+.kategorie__hinweis { color: var(--grau); font-size: .95rem; margin: 1.25rem 0 0; max-width: 60ch; }
+.gerichte { display: grid; gap: 1.5rem 3.5rem; margin: 0; padding: 0; list-style: none; }
+.gericht { display: grid; grid-template-columns: 5.75rem 1fr; gap: 1rem; align-items: center; }
+.gerichte--ohne-bild .gericht { grid-template-columns: 1fr; }
+.gericht__bild, .gericht__kreis { width: 5.75rem; height: 5.75rem; border-radius: 50%; }
+.gericht__bild { display: block; object-fit: cover; background: var(--dunkel); }
+.gericht__visual { position: relative; display: block; }
+.gericht__visual .gericht__nr {
+  position: absolute; left: -.2rem; bottom: .05rem; min-width: 0; padding: .12rem .45rem; border-radius: 999px;
+  background: var(--dunkel); color: var(--stein); font-size: .78rem; line-height: 1.2; box-shadow: 0 0 0 2px var(--stein);
+}
+.gericht__kreis {
+  display: grid; place-items: center; padding: .6rem; text-align: center;
+  background: var(--dunkel); color: var(--stein);
+  box-shadow: inset 0 0 0 .45rem #2B251F;
+  font-family: var(--display); font-weight: 800; text-transform: uppercase; line-height: .9;
+  font-size: 1.05rem; overflow-wrap: anywhere;
+}
+.gericht__kopf { display: flex; align-items: baseline; gap: .5rem; margin: 0; }
+.gericht__nr { flex: none; min-width: 2.6em; font-family: var(--mono); font-weight: 600; font-size: .85rem; color: var(--grau); font-variant-numeric: tabular-nums; }
+.gericht__name { font-family: var(--display); font-weight: 800; text-transform: uppercase; font-size: 1.6rem; line-height: 1.05; flex: 0 1 auto; }
+.gericht__name .chili { width: .7em; height: .7em; margin-left: .2em; vertical-align: -.02em; }
+.gericht__punkte { flex: 1 1 1rem; min-width: 1rem; border-bottom: 2px dotted rgba(26, 22, 18, .45); transform: translateY(-.3em); }
+.gericht__preis { font-size: 1.1rem; }
+.gericht__preis--inklusive { font-family: var(--text); font-weight: 600; font-size: .95rem; color: var(--grau); }
+.gericht__beschreibung { margin: .3rem 0 0; color: var(--grau); font-size: .98rem; line-height: 1.45; max-width: 46ch; }
+.chili { display: inline-block; width: 1.1em; height: 1.1em; color: var(--rot); flex: none; }
+
+.karte__fuss { margin-top: clamp(3rem, 7vw, 4.5rem); padding-top: 1.5rem; border-top: 1px solid var(--linie-hell); color: var(--grau); font-size: .95rem; }
+.karte__fuss p { max-width: 70ch; }
+.karte__fuss a { color: var(--dunkel); font-weight: 600; }
+
+/* Fleischtheke */
+.theke { background: var(--weiss); }
+.theke__inhalt { display: grid; gap: .75rem; padding-block: clamp(2.5rem, 6vw, 3.5rem); }
+.theke h2 { font-size: clamp(1.9rem, 6vw, 2.75rem); }
+.theke p { margin: 0; max-width: 56ch; color: var(--grau); font-size: 1.1rem; }
+
+/* Besuch */
+.besuch__raster { display: grid; gap: 2.5rem; }
+.besuch h3 { font-size: 1.9rem; margin-bottom: .75rem; }
+.besuch p { margin: 0 0 .5rem; }
+.besuch__gross { font-family: var(--display); font-weight: 800; text-transform: uppercase; font-size: clamp(2.2rem, 8vw, 3rem); line-height: 1.05; margin: 0 0 .75rem; }
+.besuch__leise { color: var(--stein-auf-dunkel); }
+.besuch__telefon { font-family: var(--mono); font-weight: 600; font-size: clamp(1.7rem, 6vw, 2.3rem); text-decoration: none; white-space: nowrap; }
+.besuch ul { margin: 0; padding: 0; list-style: none; }
+.besuch li + li { margin-top: .35rem; }
+.besuch a { font-weight: 600; }
+.besuch .knopf { margin-top: .75rem; }
+
+/* Fuß */
+.fuss { border-top: 1px solid var(--linie-dunkel); padding-block: 2rem 2.5rem; font-size: .95rem; }
+.fuss__innen { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem 2rem; align-items: center; }
+.fuss ul { display: flex; flex-wrap: wrap; gap: .25rem 1.5rem; margin: 0; padding: 0; list-style: none; }
+.fuss a { display: inline-block; padding-block: .35rem; }
+.fuss p { margin: 0; color: var(--stein-auf-dunkel); }
+
+/* Unterseiten */
+.seitenkopf { padding-bottom: clamp(2rem, 6vw, 3.5rem); }
+.seitenkopf h1 { font-size: clamp(2.9rem, 12vw, 6.5rem); margin-top: clamp(1.5rem, 5vw, 3rem); }
+.seitenkopf__unter { color: var(--stein-auf-dunkel); margin: 1rem 0 0; }
+.text, .agseite { padding-block: clamp(2.5rem, 6vw, 4rem) clamp(3.5rem, 8vw, 6rem); }
+.text__spalte { max-width: 44rem; }
+.text h2 { font-size: clamp(1.8rem, 6vw, 2.4rem); margin: 2.5rem 0 .75rem; }
+.text h2:first-child { margin-top: 0; }
+.text h3 { font-family: var(--text); text-transform: none; font-weight: 700; font-size: 1.1rem; line-height: 1.3; margin: 1.5rem 0 .4rem; }
+.text ul { padding-left: 1.2rem; }
+.text li { margin-bottom: .35rem; }
+.platzhalter { background: #FBE9E7; color: var(--rot); font-weight: 700; padding: .05em .35em; border-radius: 4px; }
+
+/* Allergene */
+.hinweis { border-left: 5px solid var(--rot); background: var(--weiss); padding: 1rem 1.25rem; border-radius: 0 8px 8px 0; max-width: 60ch; }
+.hinweis p { margin: 0; }
+.hinweis strong { color: var(--rot); }
+.stand { font-family: var(--mono); font-weight: 600; font-size: .95rem; }
+.js-nur { display: none; }
+.js .js-nur { display: block; }
+.filter { background: var(--weiss); border-radius: 12px; padding: 1.25rem; margin: 2rem 0 0; }
+.filter label, .filter legend { display: block; font-weight: 700; margin-bottom: .5rem; }
+.filter input[type="search"] {
+  width: 100%; font: inherit; font-size: 1.1rem; padding: .85rem 1rem;
+  border: 2px solid var(--dunkel); border-radius: 10px; background: var(--weiss); color: var(--dunkel);
+}
+.filter fieldset { border: 0; padding: 0; margin: 1.5rem 0 0; min-width: 0; }
+.filter legend { padding: 0; }
+.filter__erklaerung { color: var(--grau); font-size: .95rem; margin: 0 0 .75rem; }
+.chips { display: flex; flex-wrap: wrap; gap: .5rem; }
+.chip {
+  display: inline-flex; align-items: center; gap: .45rem; min-height: 2.75rem; padding: .4rem .9rem .4rem .4rem;
+  border: 1.5px solid var(--dunkel); border-radius: 999px; background: var(--weiss); color: var(--dunkel);
+  font: 600 .95rem/1.2 var(--text); cursor: pointer;
+}
+.chip__code { display: grid; place-items: center; width: 1.9rem; height: 1.9rem; border-radius: 50%; background: var(--stein); font-family: var(--mono); font-size: .9rem; }
+.chip[aria-pressed="true"] { background: var(--dunkel); color: var(--stein); }
+.chip[aria-pressed="true"] .chip__code { background: var(--rot); color: var(--weiss); }
+.filter__status { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .75rem; margin-top: 1.25rem; }
+.filter__status p { margin: 0; font-weight: 600; }
+.knopf-text { font: 600 1rem var(--text); color: var(--dunkel); background: none; border: 0; padding: .5rem 0; text-decoration: underline; cursor: pointer; }
+
+.agliste { margin-top: 1rem; }
+.agkat { padding-top: 2.5rem; }
+.agkat h2 { font-size: clamp(2.2rem, 9vw, 3.5rem); padding-bottom: .6rem; border-bottom: 3px solid var(--dunkel); margin-bottom: .5rem; }
+.agkat ul.eintraege { margin: 0; padding: 0; list-style: none; }
+.eintrag { padding: 1rem 0; border-bottom: 1px solid var(--linie-hell); }
+.eintrag h3 { font-size: 1.55rem; line-height: 1.05; }
+.eintrag__nr { font-family: var(--mono); font-weight: 600; font-size: .58em; color: var(--grau); margin-right: .2em; vertical-align: .18em; }
+.eintrag .chili { width: .7em; height: .7em; margin-left: .2em; }
+.eintrag dl { margin: .6rem 0 0; display: grid; gap: .35rem; }
+.eintrag dt { font-size: .85rem; font-weight: 700; color: var(--grau); }
+.eintrag dd { margin: 0; }
+.badges { display: flex; flex-wrap: wrap; gap: .35rem .5rem; margin: 0; padding: 0; list-style: none; }
+.badges li { display: inline-flex; align-items: center; gap: .4rem; background: var(--weiss); border-radius: 999px; padding: .2rem .7rem .2rem .25rem; font-size: .95rem; }
+.badges b { display: grid; place-items: center; width: 1.6rem; height: 1.6rem; border-radius: 50%; background: var(--dunkel); color: var(--stein); font-family: var(--mono); font-size: .85rem; }
+.keine { color: var(--grau); }
+.leer { background: var(--weiss); border-radius: 12px; padding: 1.25rem; margin-top: 2rem; font-weight: 600; }
+.legende { margin-top: clamp(3rem, 8vw, 5rem); display: grid; gap: 2.5rem; }
+.legende h2 { font-size: clamp(2rem, 8vw, 3rem); margin-bottom: 1rem; }
+.legende ul { margin: 0; padding: 0; list-style: none; display: grid; gap: .4rem; }
+.legende li { display: flex; gap: .75rem; align-items: baseline; }
+.legende li b { font-family: var(--mono); min-width: 1.75rem; }
+[hidden] { display: none !important; }
+
+@media (min-width: 48rem) {
+  .kopf__nur-gross { display: list-item; }
+  .menues__liste { grid-template-columns: repeat(3, 1fr); gap: 2.5rem; }
+  .fruehstueck__raster { grid-template-columns: 1.3fr 1fr; }
+  .fruehstueck__bild { justify-self: end; }
+  .gericht { grid-template-columns: 7rem 1fr; gap: 1.25rem; }
+  .gericht__bild, .gericht__kreis { width: 7rem; height: 7rem; }
+  .gericht__kreis { font-size: 1.25rem; }
+  .gericht__name { font-size: 1.85rem; }
+  .besuch__raster { grid-template-columns: repeat(3, 1fr); }
+  .bestellwege { grid-template-columns: 1fr 1fr; }
+  .bestellweg { padding-right: 2.5rem; }
+  .bestellweg + .bestellweg { border-top: 0; border-left: 1px solid var(--linie-hell); padding-left: 2.5rem; padding-right: 0; }
+  .legende { grid-template-columns: 1fr 1fr; }
+}
+
+@media (min-width: 64rem) {
+  .hero__inhalt { padding-bottom: clamp(4rem, 8vw, 7rem); min-height: min(52rem, 100svh); }
+  .hero__teller { width: min(50vw, 52rem); left: auto; right: max(-9vw, -8rem); bottom: auto; top: 50%; translate: 0 -46%; }
+  .hero__claim { max-width: 17ch; }
+  .hero__text { max-width: 36ch; }
+  .gerichte { grid-template-columns: 1fr 1fr; }
+  .agkat ul.eintraege { display: grid; grid-template-columns: 1fr 1fr; column-gap: 3rem; }
+}
+
+</style>
+</head>
+<body>
+<a class="sprung" href="#inhalt">Zum Inhalt springen</a>
+<header class="dunkel hero">
+  <div class="innen hero__inhalt">
+    <div class="kopf">
+      <nav aria-label="Hauptnavigation">
+      <ul>
+        
+        <li><a href="#menues">Menüs</a></li>
+        <li><a href="#speisekarte">Speisekarte</a></li>
+        <li><a href="/allergene/">Allergene</a></li>
+        <li><a href="#besuch">Anfahrt</a></li>
+      </ul>
+    </nav>
+    </div>
+    <h1 class="hero__marke"><img class="logo logo--bild" src="/img/logo-hell-38f33b6e.svg" width="772" height="168" alt="Al-Medina"><span class="vh"> Bremen</span></h1>
+    <p class="hero__claim">Manakish, Pide und Dürüm. <span class="nobr">Frisch gemacht</span> in <span class="nobr">Bremen-Nord.</span></p>
+    <p class="hero__text">Restaurant und Fleischerei in der Sagerstraße 45. Geöffnet Montag bis Samstag 09:00 bis 19:00 Uhr.</p>
+    <div class="hero__aktionen">
+      <a class="knopf knopf--olive" href="tel:+4942149151178">Jetzt anrufen &amp; abholen <span class="preis">0421 49151178</span></a>
+      <a class="knopf knopf--rahmen" href="https://www.lieferando.de/speisekarte/al-medina-bremen" rel="noopener">Auf Lieferando bestellen <small>Lieferung bis 5 km, 10:00 bis 18:00 Uhr</small></a>
+    </div>
+    <p class="hero__hinweis">Abholen und vorbestellen zu Ladenpreisen. Lieferung zu Lieferando-Preisen zzgl. Liefergebühr.</p>
+    
+  </div>
+  <div class="hero__teller"><img class="" src="/img/tellergerichte-shawarma-rind-teller-400-befbd73d.webp" srcset="/img/tellergerichte-shawarma-rind-teller-400-befbd73d.webp 400w, /img/tellergerichte-shawarma-rind-teller-800-85d147ff.webp 800w, /img/tellergerichte-shawarma-rind-teller-1200-85d147ff.webp 1200w" sizes="(min-width: 64rem) 50vw, 100vw" width="400" height="400" alt="Shawarma Rind Teller auf einem Teller" fetchpriority="high"></div>
+</header>
+<main id="inhalt">
+<section class="dunkel abschnitt menues" id="menues" aria-labelledby="menues-titel">
+  <div class="innen">
+    <h2 class="abschnitt__titel" id="menues-titel">Unsere Menüs</h2>
+    <ul class="menues__liste">
+      <li class="menu">
+        <img class="menu__bild" src="/img/manakisch-kaese-zaatar-400-c7bc072a.webp" srcset="/img/manakisch-kaese-zaatar-400-c7bc072a.webp 400w, /img/manakisch-kaese-zaatar-800-e0a442b9.webp 800w, /img/manakisch-kaese-zaatar-1200-e0a442b9.webp 1200w" sizes="min(22rem, 90vw)" width="400" height="400" alt="Manakish Käse-Zatar auf einem Teller" loading="lazy" decoding="async">
+        <p class="menu__nr">Nr. 901</p>
+        <h3 class="menu__name">Frühstücks-Manakish</h3>
+        <p class="menu__inhalt">Manakish Zatar + Manakish Käse + Getränk 0,33 l</p>
+        <p class="menu__preise"><span class="preis">7,90 €</span><span class="menu__statt">statt <s>8,92 €</s></span></p>
+      </li>
+      <li class="menu">
+        <img class="menu__bild" src="/img/dueruem-shawarma-rind-400-0f396f37.webp" srcset="/img/dueruem-shawarma-rind-400-0f396f37.webp 400w, /img/dueruem-shawarma-rind-800-ce232a78.webp 800w, /img/dueruem-shawarma-rind-1200-ce232a78.webp 1200w" sizes="min(22rem, 90vw)" width="400" height="400" alt="Dürüm Shawarma Rind auf einem Teller" loading="lazy" decoding="async">
+        <p class="menu__nr">Nr. 902</p>
+        <h3 class="menu__name">Dürüm Menü</h3>
+        <p class="menu__inhalt">Dürüm nach Wahl + Dip nach Wahl + Getränk 0,33 l</p>
+        <p class="menu__preise"><span class="preis">14,50 €</span><span class="menu__statt">statt <s>15,92 €</s></span></p>
+      </li>
+      <li class="menu">
+        <img class="menu__bild" src="/img/pide-kaese-400-9f7976e4.webp" srcset="/img/pide-kaese-400-9f7976e4.webp 400w, /img/pide-kaese-800-383ae6cc.webp 800w, /img/pide-kaese-1200-383ae6cc.webp 1200w" sizes="min(22rem, 90vw)" width="400" height="400" alt="Pide Käse auf einem Teller" loading="lazy" decoding="async">
+        <p class="menu__nr">Nr. 903</p>
+        <h3 class="menu__name">Familien Box</h3>
+        <p class="menu__inhalt">2 Pide Käse + 4 Manakish (Zatar, Käse, Mhamara, Käse-Sucuk) + 2 Dips</p>
+        <p class="menu__preise"><span class="preis">29,90 €</span><span class="menu__statt">statt <s>33,00 €</s></span></p>
+      </li>
+    </ul>
+  </div>
+</section>
+<section class="abschnitt fruehstueck" id="fruehstueck" aria-labelledby="fruehstueck-titel">
+  <div class="innen fruehstueck__raster">
+    <div>
+      <h2 id="fruehstueck-titel">Frühstück <span class="nobr">ab 9 Uhr</span></h2>
+      <p>Wir öffnen Montag bis Samstag um 9 Uhr. Manakish sind das klassische arabische Frühstück, bei uns mit Zatar, Käse oder Mhamara.</p>
+      <p>Unser Frühstücks-Manakish: Manakish Zatar + Manakish Käse + Getränk 0,33 l für <span class="preis">7,90 €</span>.</p>
+      <p><a href="#manakish">Alle Manakish ansehen</a></p>
+    </div>
+    <img class="fruehstueck__bild" src="/img/manakisch-mhamarra-400-9dfb1ffa.webp" srcset="/img/manakisch-mhamarra-400-9dfb1ffa.webp 400w, /img/manakisch-mhamarra-800-1da99520.webp 800w, /img/manakisch-mhamarra-1200-1da99520.webp 1200w" sizes="min(24rem, 70vw)" width="400" height="400" alt="Manakish Mhamara auf einem Teller" loading="lazy" decoding="async">
+  </div>
+</section>
+<section class="abschnitt karte" id="speisekarte" aria-labelledby="karte-titel">
+  <div class="innen">
+    <h2 class="abschnitt__titel" id="karte-titel">Speisekarte</h2>
+    <div class="bestellwege">
+      <div class="bestellweg">
+        <h3>Abholen oder vorbestellen</h3>
+        <p><strong>Im Laden, bei Abholung und Vorbestellung gelten die Preise dieser Speisekarte.</strong> Rufen Sie an, bestellen Sie vor und holen Sie Ihr Essen in der Sagerstraße 45 ab.</p>
+        
+        <a class="knopf knopf--olive" href="tel:+4942149151178">Anrufen und vorbestellen <span class="preis">0421 49151178</span></a>
+      </div>
+      <div class="bestellweg">
+        <h3>Liefern lassen</h3>
+        <p>Über Lieferando von 10:00 bis 18:00 Uhr im Umkreis von 5 km. Ausgenommen sind Lemwerder und Orte, die nur über die Fähre erreichbar sind. <strong>Es gelten die Lieferando-Preise zzgl. Liefergebühr.</strong></p>
+        <a class="bestellweg__link" href="https://www.lieferando.de/speisekarte/al-medina-bremen" rel="noopener">Auf Lieferando bestellen</a>
+      </div>
+    </div>
+    <ul class="karte__legende">
+      <li><svg class="chili" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M15.2 7.1c2.4.2 4.1 2.2 3.9 4.7-.4 5.4-6.8 10-14.4 10.2-.9 0-1.1-1-.4-1.4 4.4-2.7 6.2-6.1 6.7-9.6.4-2.4 2-4.1 4.2-3.9z"/><path fill="currentColor" d="M15.6 7.2c-.1-1.9.7-3.5 2.4-4.6l1 1.3c-1.2.8-1.8 1.9-1.7 3.4z"/></svg> scharf</li>
+      <li>Hochgestellte Ziffern: Zusatzstoffe, Erklärung unten</li>
+      <li><a href="/allergene/">Allergene ansehen</a></li>
+    </ul>
+  </div>
+  <nav class="katnav" aria-label="Kategorien der Speisekarte">
+    <ul>
+      <li><a href="#manakish">Manakish</a></li>
+      <li><a href="#pide">Pide</a></li>
+      <li><a href="#pizza">Pizza</a></li>
+      <li><a href="#dueruem">Dürüm</a></li>
+      <li><a href="#wraps-im-arabischen-brot">Wraps im arabischen Brot</a></li>
+      <li><a href="#tellergerichte">Tellergerichte</a></li>
+      <li><a href="#salate">Salate</a></li>
+      <li><a href="#beilagen">Beilagen</a></li>
+      <li><a href="#dips-und-dressings">Dips &amp; Dressings</a></li>
+      <li><a href="#extras">Extras</a></li>
+      <li><a href="#getraenke">Getränke</a></li>
+    </ul>
+  </nav>
+  <div class="innen">
+    <section class="kategorie" id="manakish" aria-labelledby="manakish-titel">
+      <h3 class="kategorie__titel" id="manakish-titel">Manakish</h3>
+      <ul class="gerichte">
+        <li class="gericht" id="manakish-manakish-zatar">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/manakisch-zaatar-400-3a971342.webp" srcset="/img/manakisch-zaatar-400-3a971342.webp 400w, /img/manakisch-zaatar-800-499a9683.webp 800w, /img/manakisch-zaatar-1200-499a9683.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Manakish Zatar auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>101</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Manakish Zatar</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">3,00 €</span></p>
+            
+          </div>
+        </li>
+        <li class="gericht" id="manakish-manakish-kaese">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/manakisch-kaese-400-7a0005ed.webp" srcset="/img/manakisch-kaese-400-7a0005ed.webp 400w, /img/manakisch-kaese-800-8fe31aae.webp 800w, /img/manakisch-kaese-1200-8fe31aae.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Manakish Käse auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>102</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Manakish Käse</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">3,50 €</span></p>
+            
+          </div>
+        </li>
+        <li class="gericht" id="manakish-manakish-kaese-zatar">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/manakisch-kaese-zaatar-400-c7bc072a.webp" srcset="/img/manakisch-kaese-zaatar-400-c7bc072a.webp 400w, /img/manakisch-kaese-zaatar-800-e0a442b9.webp 800w, /img/manakisch-kaese-zaatar-1200-e0a442b9.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Manakish Käse-Zatar auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>103</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Manakish Käse-Zatar</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">4,00 €</span></p>
+            <p class="gericht__beschreibung">halb Käse, halb Zatar</p>
+          </div>
+        </li>
+        <li class="gericht" id="manakish-manakish-mhamara">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/manakisch-mhamarra-400-9dfb1ffa.webp" srcset="/img/manakisch-mhamarra-400-9dfb1ffa.webp 400w, /img/manakisch-mhamarra-800-1da99520.webp 800w, /img/manakisch-mhamarra-1200-1da99520.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Manakish Mhamara auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>104</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Manakish Mhamara</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">3,00 €</span></p>
+            
+          </div>
+        </li>
+        <li class="gericht" id="manakish-manakish-mhamara-kaese">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/manakisch-mhamarra-kaese-400-7f616533.webp" srcset="/img/manakisch-mhamarra-kaese-400-7f616533.webp 400w, /img/manakisch-mhamarra-kaese-800-ed58e50c.webp 800w, /img/manakisch-mhamarra-kaese-1200-ed58e50c.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Manakish Mhamara-Käse auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>105</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Manakish Mhamara-Käse</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">3,50 €</span></p>
+            
+          </div>
+        </li>
+        <li class="gericht" id="manakish-manakish-lahmacun">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/manakisch-hackfleisch-400-e80de522.webp" srcset="/img/manakisch-hackfleisch-400-e80de522.webp 400w, /img/manakisch-hackfleisch-800-114287bf.webp 800w, /img/manakisch-hackfleisch-1200-114287bf.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Manakish Lahmacun auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>106</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Manakish Lahmacun</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">3,50 €</span></p>
+            <p class="gericht__beschreibung">mit Hackfleisch</p>
+          </div>
+        </li>
+        <li class="gericht" id="manakish-manakish-sis-rind">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/manakisch-sis-rind-400-7ad58aed.webp" srcset="/img/manakisch-sis-rind-400-7ad58aed.webp 400w, /img/manakisch-sis-rind-800-2ddd49e5.webp 800w, /img/manakisch-sis-rind-1200-2ddd49e5.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Manakish Sis Rind auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>107</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Manakish Sis Rind<svg class="chili" viewBox="0 0 24 24" role="img" aria-label="scharf" focusable="false"><path fill="currentColor" d="M15.2 7.1c2.4.2 4.1 2.2 3.9 4.7-.4 5.4-6.8 10-14.4 10.2-.9 0-1.1-1-.4-1.4 4.4-2.7 6.2-6.1 6.7-9.6.4-2.4 2-4.1 4.2-3.9z"/><path fill="currentColor" d="M15.6 7.2c-.1-1.9.7-3.5 2.4-4.6l1 1.3c-1.2.8-1.8 1.9-1.7 3.4z"/></svg></span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">5,00 €</span></p>
+            
+          </div>
+        </li>
+        <li class="gericht" id="manakish-manakish-sis-tavuk">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/manakisch-sis-tavuk-400-a4ffd618.webp" srcset="/img/manakisch-sis-tavuk-400-a4ffd618.webp 400w, /img/manakisch-sis-tavuk-800-be437b04.webp 800w, /img/manakisch-sis-tavuk-1200-be437b04.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Manakish Sis Tavuk auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>108</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Manakish Sis Tavuk<svg class="chili" viewBox="0 0 24 24" role="img" aria-label="scharf" focusable="false"><path fill="currentColor" d="M15.2 7.1c2.4.2 4.1 2.2 3.9 4.7-.4 5.4-6.8 10-14.4 10.2-.9 0-1.1-1-.4-1.4 4.4-2.7 6.2-6.1 6.7-9.6.4-2.4 2-4.1 4.2-3.9z"/><path fill="currentColor" d="M15.6 7.2c-.1-1.9.7-3.5 2.4-4.6l1 1.3c-1.2.8-1.8 1.9-1.7 3.4z"/></svg></span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">4,50 €</span></p>
+            
+          </div>
+        </li>
+        <li class="gericht" id="manakish-manakish-kaese-sucuk">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/manakisch-kaese-sucuk-400-43ca21a0.webp" srcset="/img/manakisch-kaese-sucuk-400-43ca21a0.webp 400w, /img/manakisch-kaese-sucuk-800-291afc23.webp 800w, /img/manakisch-kaese-sucuk-1200-291afc23.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Manakish Käse-Sucuk auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>109</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Manakish Käse-Sucuk<sup><span class="vh">Zusatzstoffe </span>2</sup></span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">4,50 €</span></p>
+            
+          </div>
+        </li>
+      </ul>
+      
+    </section>
+    <section class="kategorie" id="pide" aria-labelledby="pide-titel">
+      <h3 class="kategorie__titel" id="pide-titel">Pide</h3>
+      <ul class="gerichte">
+        <li class="gericht" id="pide-pide-kaese">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/pide-kaese-400-9f7976e4.webp" srcset="/img/pide-kaese-400-9f7976e4.webp 400w, /img/pide-kaese-800-383ae6cc.webp 800w, /img/pide-kaese-1200-383ae6cc.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Pide Käse auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>201</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Pide Käse</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">8,00 €</span></p>
+            
+          </div>
+        </li>
+        <li class="gericht" id="pide-pide-kaese-sucuk">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/pide-kaese-sucuk-400-6de48156.webp" srcset="/img/pide-kaese-sucuk-400-6de48156.webp 400w, /img/pide-kaese-sucuk-800-afad6859.webp 800w, /img/pide-kaese-sucuk-1200-afad6859.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Pide Käse-Sucuk auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>202</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Pide Käse-Sucuk<sup><span class="vh">Zusatzstoffe </span>2</sup></span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">9,00 €</span></p>
+            
+          </div>
+        </li>
+        <li class="gericht" id="pide-pide-hackfleisch">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/pide-hackfleisch-400-6c5add15.webp" srcset="/img/pide-hackfleisch-400-6c5add15.webp 400w, /img/pide-hackfleisch-800-41b09430.webp 800w, /img/pide-hackfleisch-1200-41b09430.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Pide Hackfleisch auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>203</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Pide Hackfleisch</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">9,00 €</span></p>
+            
+          </div>
+        </li>
+        <li class="gericht" id="pide-pide-sis-rind">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/pide-sis-rind-400-b1e7cab6.webp" srcset="/img/pide-sis-rind-400-b1e7cab6.webp 400w, /img/pide-sis-rind-800-47db5b29.webp 800w, /img/pide-sis-rind-1200-47db5b29.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Pide Sis Rind auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>204</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Pide Sis Rind</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">10,00 €</span></p>
+            
+          </div>
+        </li>
+        <li class="gericht" id="pide-pide-sis-tavuk">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/pide-sis-tavuk-400-e3d074cf.webp" srcset="/img/pide-sis-tavuk-400-e3d074cf.webp 400w, /img/pide-sis-tavuk-800-3081c41b.webp 800w, /img/pide-sis-tavuk-1200-3081c41b.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Pide Sis Tavuk auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>205</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Pide Sis Tavuk</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">10,00 €</span></p>
+            
+          </div>
+        </li>
+      </ul>
+      
+    </section>
+    <section class="kategorie" id="pizza" aria-labelledby="pizza-titel">
+      <h3 class="kategorie__titel" id="pizza-titel">Pizza</h3>
+      <ul class="gerichte">
+        <li class="gericht" id="pizza-pizza-margherita">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/pizza-margherita-400-251ff205.webp" srcset="/img/pizza-margherita-400-251ff205.webp 400w, /img/pizza-margherita-800-28a23085.webp 800w, /img/pizza-margherita-1200-28a23085.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Pizza Margherita auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>301</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Pizza Margherita</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">9,00 €</span></p>
+            <p class="gericht__beschreibung">mit Tomatensauce und Käse</p>
+          </div>
+        </li>
+        <li class="gericht" id="pizza-pizza-tonno">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/pizza-tonno-400-7e5c0a2b.webp" srcset="/img/pizza-tonno-400-7e5c0a2b.webp 400w, /img/pizza-tonno-800-a77b1ca4.webp 800w, /img/pizza-tonno-1200-a77b1ca4.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Pizza Tonno auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>302</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Pizza Tonno</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">12,00 €</span></p>
+            <p class="gericht__beschreibung">mit Tomatensauce, Käse, Thunfisch und Zwiebeln</p>
+          </div>
+        </li>
+        <li class="gericht" id="pizza-pizza-vegetarisch">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/pizza-vegetarisch-400-2560c829.webp" srcset="/img/pizza-vegetarisch-400-2560c829.webp 400w, /img/pizza-vegetarisch-800-d80e0047.webp 800w, /img/pizza-vegetarisch-1200-d80e0047.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Pizza Vegetarisch auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>303</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Pizza Vegetarisch</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">11,00 €</span></p>
+            <p class="gericht__beschreibung">mit Tomatensauce, Käse, Paprika, Mais, Tomaten und Zwiebeln</p>
+          </div>
+        </li>
+      </ul>
+      
+    </section>
+    <section class="kategorie" id="dueruem" aria-labelledby="dueruem-titel">
+      <h3 class="kategorie__titel" id="dueruem-titel">Dürüm</h3>
+      <ul class="gerichte">
+        <li class="gericht" id="dueruem-dueruem-shawarma-haehnchen">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/dueruem-shawarma-haehnchen-400-2b0d029a.webp" srcset="/img/dueruem-shawarma-haehnchen-400-2b0d029a.webp 400w, /img/dueruem-shawarma-haehnchen-800-7b0b6df5.webp 800w, /img/dueruem-shawarma-haehnchen-1200-7b0b6df5.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Dürüm Shawarma Hähnchen auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>401</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Dürüm Shawarma Hähnchen<sup><span class="vh">Zusatzstoffe </span>2</sup></span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">12,00 €</span></p>
+            <p class="gericht__beschreibung">mit 200 g Hähnchen, Essiggurken, Knoblauch, Zwiebeln, Petersilie und Salat</p>
+          </div>
+        </li>
+        <li class="gericht" id="dueruem-dueruem-shawarma-rind">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/dueruem-shawarma-rind-400-0f396f37.webp" srcset="/img/dueruem-shawarma-rind-400-0f396f37.webp 400w, /img/dueruem-shawarma-rind-800-ce232a78.webp 800w, /img/dueruem-shawarma-rind-1200-ce232a78.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Dürüm Shawarma Rind auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>402</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Dürüm Shawarma Rind<sup><span class="vh">Zusatzstoffe </span>2</sup></span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">12,00 €</span></p>
+            <p class="gericht__beschreibung">mit 200 g Rind, Hummus, Tomaten, Petersilie, Zwiebeln und Essiggurken</p>
+          </div>
+        </li>
+        <li class="gericht" id="dueruem-dueruem-sis-tavuk">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/dueruem-sis-tavuk-400-00257145.webp" srcset="/img/dueruem-sis-tavuk-400-00257145.webp 400w, /img/dueruem-sis-tavuk-800-14fac1c9.webp 800w, /img/dueruem-sis-tavuk-1200-14fac1c9.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Dürüm Sis Tavuk auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>403</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Dürüm Sis Tavuk</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">12,00 €</span></p>
+            <p class="gericht__beschreibung">mit 200 g Sis Tavuk, Rucola, Tzatziki, Tomaten und Eisbergsalat</p>
+          </div>
+        </li>
+        <li class="gericht" id="dueruem-dueruem-fajita">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/dueruem-fajita-400-d0bc2cab.webp" srcset="/img/dueruem-fajita-400-d0bc2cab.webp 400w, /img/dueruem-fajita-800-fded8c49.webp 800w, /img/dueruem-fajita-1200-fded8c49.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Dürüm Fajita auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>404</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Dürüm Fajita</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">12,00 €</span></p>
+            <p class="gericht__beschreibung">mit 200 g Fajita, Paprika, Mais, Zwiebeln, Champignons und Knoblauch</p>
+          </div>
+        </li>
+        <li class="gericht" id="dueruem-dueruem-koefte">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/dueruem-koefte-400-1499475f.webp" srcset="/img/dueruem-koefte-400-1499475f.webp 400w, /img/dueruem-koefte-800-60be247e.webp 800w, /img/dueruem-koefte-1200-60be247e.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Dürüm Köfte auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>405</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Dürüm Köfte</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">12,00 €</span></p>
+            <p class="gericht__beschreibung">mit 200 g Köfte, Tomaten, Hummus, Zwiebeln und Petersilie</p>
+          </div>
+        </li>
+        <li class="gericht" id="dueruem-dueruem-crispy-chicken">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/dueruem-crispy-chicken-400-256a0e42.webp" srcset="/img/dueruem-crispy-chicken-400-256a0e42.webp 400w, /img/dueruem-crispy-chicken-800-941311dd.webp 800w, /img/dueruem-crispy-chicken-1200-941311dd.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Dürüm Crispy Chicken auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>406</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Dürüm Crispy Chicken</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">12,00 €</span></p>
+            <p class="gericht__beschreibung">mit 200 g Crispy Chicken, Knoblauchsauce, Tomaten, Rucola und Eisbergsalat</p>
+          </div>
+        </li>
+      </ul>
+      
+    </section>
+    <section class="kategorie" id="wraps-im-arabischen-brot" aria-labelledby="wraps-im-arabischen-brot-titel">
+      <h3 class="kategorie__titel" id="wraps-im-arabischen-brot-titel">Wraps im arabischen Brot</h3>
+      <ul class="gerichte">
+        <li class="gericht" id="wraps-im-arabischen-brot-wrap-koefte">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/wraps-arabisches-brot-koefte-400-a3bb392b.webp" srcset="/img/wraps-arabisches-brot-koefte-400-a3bb392b.webp 400w, /img/wraps-arabisches-brot-koefte-800-7c085231.webp 800w, /img/wraps-arabisches-brot-koefte-1200-7c085231.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Wrap Köfte auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>501</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Wrap Köfte</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">7,00 €</span></p>
+            <p class="gericht__beschreibung">mit Köfte, Tomaten, Hummus, Zwiebeln und Petersilie</p>
+          </div>
+        </li>
+        <li class="gericht" id="wraps-im-arabischen-brot-wrap-sis-tavuk">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/wraps-arabisches-brot-sis-tavuk-400-33965951.webp" srcset="/img/wraps-arabisches-brot-sis-tavuk-400-33965951.webp 400w, /img/wraps-arabisches-brot-sis-tavuk-800-a30165da.webp 800w, /img/wraps-arabisches-brot-sis-tavuk-1200-a30165da.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Wrap Sis Tavuk auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>502</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Wrap Sis Tavuk<sup><span class="vh">Zusatzstoffe </span>2</sup></span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">7,00 €</span></p>
+            <p class="gericht__beschreibung">mit Sis Tavuk, Knoblauchsauce und Essiggurken</p>
+          </div>
+        </li>
+        <li class="gericht" id="wraps-im-arabischen-brot-wrap-shawarma-rind">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/wraps-arabisches-brot-shawarma-rind-400-28a2c999.webp" srcset="/img/wraps-arabisches-brot-shawarma-rind-400-28a2c999.webp 400w, /img/wraps-arabisches-brot-shawarma-rind-800-c2d1f6d6.webp 800w, /img/wraps-arabisches-brot-shawarma-rind-1200-c2d1f6d6.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Wrap Shawarma Rind auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>503</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Wrap Shawarma Rind<sup><span class="vh">Zusatzstoffe </span>2</sup></span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">7,00 €</span></p>
+            <p class="gericht__beschreibung">mit Rind, Hummus, Tomaten, Petersilie, Zwiebeln und Essiggurken</p>
+          </div>
+        </li>
+        <li class="gericht" id="wraps-im-arabischen-brot-wrap-falafel">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/wraps-arabisches-brot-falafel-400-070ebb3d.webp" srcset="/img/wraps-arabisches-brot-falafel-400-070ebb3d.webp 400w, /img/wraps-arabisches-brot-falafel-800-23270621.webp 800w, /img/wraps-arabisches-brot-falafel-1200-23270621.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Wrap Falafel auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>504</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Wrap Falafel<sup><span class="vh">Zusatzstoffe </span>2</sup></span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">7,00 €</span></p>
+            <p class="gericht__beschreibung">mit Tomate, Zwiebel, Petersilie, Eisberg, Sesamsauce, eingelegten Weißrüben und Gurken</p>
+          </div>
+        </li>
+        <li class="gericht" id="wraps-im-arabischen-brot-arayes-kafta">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/wraps-arabisches-brot-arayes-kafta-400-6a5dbc26.webp" srcset="/img/wraps-arabisches-brot-arayes-kafta-400-6a5dbc26.webp 400w, /img/wraps-arabisches-brot-arayes-kafta-800-0c21f7c6.webp 800w, /img/wraps-arabisches-brot-arayes-kafta-1200-0c21f7c6.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Arayes Kafta auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>505</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Arayes Kafta</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">7,50 €</span></p>
+            <p class="gericht__beschreibung">im arabischen Brot getoastet, mit Rinderhackfleisch, Zwiebeln und Petersilie, dazu Sesamsauce</p>
+          </div>
+        </li>
+      </ul>
+      
+    </section>
+    <section class="kategorie" id="tellergerichte" aria-labelledby="tellergerichte-titel">
+      <h3 class="kategorie__titel" id="tellergerichte-titel">Tellergerichte</h3>
+      <ul class="gerichte">
+        <li class="gericht" id="tellergerichte-kafta-teller">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/tellergerichte-kafta-teller-400-991e027f.webp" srcset="/img/tellergerichte-kafta-teller-400-991e027f.webp 400w, /img/tellergerichte-kafta-teller-800-755dd744.webp 800w, /img/tellergerichte-kafta-teller-1200-755dd744.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Kafta Teller auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>601</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Kafta Teller</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">15,00 €</span></p>
+            <p class="gericht__beschreibung">mit gemischtem Salat und Pommes</p>
+          </div>
+        </li>
+        <li class="gericht" id="tellergerichte-sis-tavuk-teller">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/tellergerichte-sis-tavuk-teller-400-f8f59ad3.webp" srcset="/img/tellergerichte-sis-tavuk-teller-400-f8f59ad3.webp 400w, /img/tellergerichte-sis-tavuk-teller-800-7c27e173.webp 800w, /img/tellergerichte-sis-tavuk-teller-1200-7c27e173.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Sis Tavuk Teller auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>602</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Sis Tavuk Teller</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">15,00 €</span></p>
+            <p class="gericht__beschreibung">mit gemischtem Salat und Pommes</p>
+          </div>
+        </li>
+        <li class="gericht" id="tellergerichte-shawarma-rind-teller">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/tellergerichte-shawarma-rind-teller-400-befbd73d.webp" srcset="/img/tellergerichte-shawarma-rind-teller-400-befbd73d.webp 400w, /img/tellergerichte-shawarma-rind-teller-800-85d147ff.webp 800w, /img/tellergerichte-shawarma-rind-teller-1200-85d147ff.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Shawarma Rind Teller auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>603</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Shawarma Rind Teller</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">15,00 €</span></p>
+            <p class="gericht__beschreibung">mit gemischtem Salat, Pommes und Sesamsauce oder Dip nach Wahl</p>
+          </div>
+        </li>
+        <li class="gericht" id="tellergerichte-crispy-chicken-teller">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/tellergerichte-crispy-chicken-teller-400-6bdcc055.webp" srcset="/img/tellergerichte-crispy-chicken-teller-400-6bdcc055.webp 400w, /img/tellergerichte-crispy-chicken-teller-800-aa51d1c2.webp 800w, /img/tellergerichte-crispy-chicken-teller-1200-aa51d1c2.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Crispy Chicken Teller auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>604</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Crispy Chicken Teller</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">15,00 €</span></p>
+            <p class="gericht__beschreibung">mit gemischtem Salat und Pommes</p>
+          </div>
+        </li>
+        <li class="gericht" id="tellergerichte-falafel-teller">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/tellergerichte-falafel-teller-400-707ce6cf.webp" srcset="/img/tellergerichte-falafel-teller-400-707ce6cf.webp 400w, /img/tellergerichte-falafel-teller-800-6292f2a2.webp 800w, /img/tellergerichte-falafel-teller-1200-6292f2a2.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Falafel Teller auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>605</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Falafel Teller<sup><span class="vh">Zusatzstoffe </span>2</sup></span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">15,00 €</span></p>
+            <p class="gericht__beschreibung">Falafel, frittierte Kartoffelscheiben, Salat, Sesamsauce, eingelegte Weißrüben und Gurken</p>
+          </div>
+        </li>
+      </ul>
+      
+    </section>
+    <section class="kategorie" id="salate" aria-labelledby="salate-titel">
+      <h3 class="kategorie__titel" id="salate-titel">Salate</h3>
+      <ul class="gerichte">
+        <li class="gericht" id="salate-chicken-caesar-salat">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/salate-chicken-caesar-400-edd22154.webp" srcset="/img/salate-chicken-caesar-400-edd22154.webp 400w, /img/salate-chicken-caesar-800-e09540d9.webp 800w, /img/salate-chicken-caesar-1200-e09540d9.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Chicken Caesar Salat auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>701</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Chicken Caesar Salat</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">12,00 €</span></p>
+            <p class="gericht__beschreibung">mit Crispy Chicken, Eisbergsalat, Tomaten und Paprika, Dressing nach Wahl</p>
+          </div>
+        </li>
+        <li class="gericht" id="salate-gemischter-salat">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/salate-gemischter-salat-400-89f4b14d.webp" srcset="/img/salate-gemischter-salat-400-89f4b14d.webp 400w, /img/salate-gemischter-salat-800-9c931338.webp 800w, /img/salate-gemischter-salat-1200-9c931338.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Gemischter Salat auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>702</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Gemischter Salat</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">8,00 €</span></p>
+            <p class="gericht__beschreibung">mit Eisbergsalat, Tomaten, Mais und Gurken, Dressing nach Wahl</p>
+          </div>
+        </li>
+        <li class="gericht" id="salate-petersilien-salat">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/salate-petersiliensalat-400-3e2ce04e.webp" srcset="/img/salate-petersiliensalat-400-3e2ce04e.webp 400w, /img/salate-petersiliensalat-800-8e5ece8d.webp 800w, /img/salate-petersiliensalat-1200-8e5ece8d.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Petersilien Salat auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>703</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Petersilien Salat</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">7,00 €</span></p>
+            <p class="gericht__beschreibung">mit Petersilie und Paprika, Dressing nach Wahl</p>
+          </div>
+        </li>
+      </ul>
+      
+    </section>
+    <section class="kategorie" id="beilagen" aria-labelledby="beilagen-titel">
+      <h3 class="kategorie__titel" id="beilagen-titel">Beilagen</h3>
+      <ul class="gerichte">
+        <li class="gericht" id="beilagen-frittierte-kartoffelchips">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/beilagen-kartoffelchips-400-592f53ef.webp" srcset="/img/beilagen-kartoffelchips-400-592f53ef.webp 400w, /img/beilagen-kartoffelchips-800-a6b9b4ef.webp 800w, /img/beilagen-kartoffelchips-1200-a6b9b4ef.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Frittierte Kartoffelchips auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>751</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Frittierte Kartoffelchips</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">3,00 €</span></p>
+            
+          </div>
+        </li>
+      </ul>
+      
+    </section>
+    <section class="kategorie" id="dips-und-dressings" aria-labelledby="dips-und-dressings-titel">
+      <h3 class="kategorie__titel" id="dips-und-dressings-titel">Dips &amp; Dressings</h3>
+      <ul class="gerichte">
+        <li class="gericht" id="dips-und-dressings-curry-dip">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/saucen-curry-400-c5ebe236.webp" srcset="/img/saucen-curry-400-c5ebe236.webp 400w, /img/saucen-curry-800-378d4abd.webp 800w, /img/saucen-curry-1200-378d4abd.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Curry-Dip auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>801</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Curry-Dip</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">1,50 €</span></p>
+            
+          </div>
+        </li>
+        <li class="gericht" id="dips-und-dressings-tzatziki">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/saucen-tzatziki-400-872262cc.webp" srcset="/img/saucen-tzatziki-400-872262cc.webp 400w, /img/saucen-tzatziki-800-d9796cee.webp 800w, /img/saucen-tzatziki-1200-d9796cee.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Tzatziki auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>802</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Tzatziki</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">1,50 €</span></p>
+            
+          </div>
+        </li>
+        <li class="gericht" id="dips-und-dressings-hummus">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/saucen-hummus-400-bc43c4e5.webp" srcset="/img/saucen-hummus-400-bc43c4e5.webp 400w, /img/saucen-hummus-800-0abb8d63.webp 800w, /img/saucen-hummus-1200-0abb8d63.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Hummus auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>803</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Hummus</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">1,50 €</span></p>
+            
+          </div>
+        </li>
+        <li class="gericht" id="dips-und-dressings-knoblauch-dip">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/saucen-knoblauch-400-3181000e.webp" srcset="/img/saucen-knoblauch-400-3181000e.webp 400w, /img/saucen-knoblauch-800-12c09939.webp 800w, /img/saucen-knoblauch-1200-12c09939.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Knoblauch-Dip auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>804</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Knoblauch-Dip</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">1,50 €</span></p>
+            
+          </div>
+        </li>
+        <li class="gericht" id="dips-und-dressings-spicy-dip">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/saucen-scharf-400-0e454e4d.webp" srcset="/img/saucen-scharf-400-0e454e4d.webp 400w, /img/saucen-scharf-800-e9b686f5.webp 800w, /img/saucen-scharf-1200-e9b686f5.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Spicy Dip auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>805</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Spicy Dip</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">1,50 €</span></p>
+            
+          </div>
+        </li>
+        <li class="gericht" id="dips-und-dressings-pikant-dip">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/saucen-pikant-400-d0c887b8.webp" srcset="/img/saucen-pikant-400-d0c887b8.webp 400w, /img/saucen-pikant-800-7210d91f.webp 800w, /img/saucen-pikant-1200-7210d91f.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Pikant-Dip auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>806</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Pikant-Dip</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">1,50 €</span></p>
+            
+          </div>
+        </li>
+        <li class="gericht" id="dips-und-dressings-sesam-dip">
+          <span class="gericht__visual"><img class="gericht__bild" src="/img/saucen-sesam-400-3ea34b0c.webp" srcset="/img/saucen-sesam-400-3ea34b0c.webp 400w, /img/saucen-sesam-800-16d3e99c.webp 800w, /img/saucen-sesam-1200-16d3e99c.webp 1200w" sizes="(min-width: 48rem) 7rem, 5.75rem" width="400" height="400" alt="Sesam-Dip auf einem Teller" loading="lazy" decoding="async"><span class="gericht__nr"><span class="vh">Nr. </span>807</span></span>
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__name">Sesam-Dip</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">1,50 €</span></p>
+            
+          </div>
+        </li>
+      </ul>
+      
+    </section>
+    <section class="kategorie" id="extras" aria-labelledby="extras-titel">
+      <h3 class="kategorie__titel" id="extras-titel">Extras</h3>
+      <ul class="gerichte gerichte--ohne-bild">
+        <li class="gericht" id="extras-kaese">
+          
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__nr"><span class="vh">Nr. </span>851</span><span class="gericht__name">Käse</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">2,00 €</span></p>
+            
+          </div>
+        </li>
+        <li class="gericht" id="extras-sucuk">
+          
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__nr"><span class="vh">Nr. </span>852</span><span class="gericht__name">Sucuk<sup><span class="vh">Zusatzstoffe </span>2</sup></span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">2,00 €</span></p>
+            
+          </div>
+        </li>
+        <li class="gericht" id="extras-tomaten">
+          
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__nr"><span class="vh">Nr. </span>853</span><span class="gericht__name">Tomaten</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">1,50 €</span></p>
+            
+          </div>
+        </li>
+        <li class="gericht" id="extras-zwiebeln-mit-petersilie">
+          
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__nr"><span class="vh">Nr. </span>854</span><span class="gericht__name">Zwiebeln mit Petersilie</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">1,50 €</span></p>
+            
+          </div>
+        </li>
+        <li class="gericht" id="extras-rucola">
+          
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__nr"><span class="vh">Nr. </span>855</span><span class="gericht__name">Rucola</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">1,00 €</span></p>
+            
+          </div>
+        </li>
+        <li class="gericht" id="extras-essiggurken">
+          
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__nr"><span class="vh">Nr. </span>856</span><span class="gericht__name">Essiggurken<sup><span class="vh">Zusatzstoffe </span>2</sup></span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">1,00 €</span></p>
+            
+          </div>
+        </li>
+        <li class="gericht" id="extras-lift-eingelegte-weissrueben">
+          
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__nr"><span class="vh">Nr. </span>857</span><span class="gericht__name">Lift (eingelegte Weißrüben)<svg class="chili" viewBox="0 0 24 24" role="img" aria-label="scharf" focusable="false"><path fill="currentColor" d="M15.2 7.1c2.4.2 4.1 2.2 3.9 4.7-.4 5.4-6.8 10-14.4 10.2-.9 0-1.1-1-.4-1.4 4.4-2.7 6.2-6.1 6.7-9.6.4-2.4 2-4.1 4.2-3.9z"/><path fill="currentColor" d="M15.6 7.2c-.1-1.9.7-3.5 2.4-4.6l1 1.3c-1.2.8-1.8 1.9-1.7 3.4z"/></svg></span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">1,00 €</span></p>
+            
+          </div>
+        </li>
+      </ul>
+      
+    </section>
+    <section class="kategorie" id="getraenke" aria-labelledby="getraenke-titel">
+      <h3 class="kategorie__titel" id="getraenke-titel">Getränke</h3>
+      <ul class="gerichte gerichte--ohne-bild">
+        <li class="gericht" id="getraenke-fritz-limo-0-33-l">
+          
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__nr"><span class="vh">Nr. </span>951</span><span class="gericht__name">Fritz Limo 0,33 l</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">2,42 €</span></p>
+            <p class="gericht__beschreibung">Zitrone, Honigmelone, Orange</p>
+          </div>
+        </li>
+        <li class="gericht" id="getraenke-fritz-spritz-bio-apfelschorle-0-33-l">
+          
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__nr"><span class="vh">Nr. </span>952</span><span class="gericht__name">Fritz Spritz Bio Apfelschorle 0,33 l</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">2,42 €</span></p>
+            
+          </div>
+        </li>
+        <li class="gericht" id="getraenke-fritz-kola-0-33-l">
+          
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__nr"><span class="vh">Nr. </span>953</span><span class="gericht__name">Fritz Kola 0,33 l<sup><span class="vh">Zusatzstoffe </span>1,11</sup></span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">2,42 €</span></p>
+            <p class="gericht__beschreibung">Original, Kola+Orange</p>
+          </div>
+        </li>
+        <li class="gericht" id="getraenke-fritz-kola-super-zero-0-33-l">
+          
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__nr"><span class="vh">Nr. </span>954</span><span class="gericht__name">Fritz Kola Super Zero 0,33 l<sup><span class="vh">Zusatzstoffe </span>1,9,10,11</sup></span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">2,42 €</span></p>
+            
+          </div>
+        </li>
+        <li class="gericht" id="getraenke-red-bull-0-25-l">
+          
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__nr"><span class="vh">Nr. </span>955</span><span class="gericht__name">Red Bull 0,25 l<sup><span class="vh">Zusatzstoffe </span>1,11</sup></span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">2,25 €</span></p>
+            
+          </div>
+        </li>
+        <li class="gericht" id="getraenke-red-bull-sugarfree-0-25-l">
+          
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__nr"><span class="vh">Nr. </span>956</span><span class="gericht__name">Red Bull Sugarfree 0,25 l<sup><span class="vh">Zusatzstoffe </span>1,9,10,11</sup></span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">2,25 €</span></p>
+            
+          </div>
+        </li>
+        <li class="gericht" id="getraenke-vilsa-0-25-l">
+          
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__nr"><span class="vh">Nr. </span>957</span><span class="gericht__name">Vilsa 0,25 l</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">2,35 €</span></p>
+            <p class="gericht__beschreibung">Still oder Sprudel, zzgl. 0,15 € Pfand</p>
+          </div>
+        </li>
+        <li class="gericht" id="getraenke-tee-0-2-l">
+          
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__nr"><span class="vh">Nr. </span>958</span><span class="gericht__name">Tee 0,2 l</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">1,50 €</span></p>
+            
+          </div>
+        </li>
+        <li class="gericht" id="getraenke-kaffee-0-2-l">
+          
+          <div class="gericht__text">
+            <p class="gericht__kopf"><span class="gericht__nr"><span class="vh">Nr. </span>959</span><span class="gericht__name">Kaffee 0,2 l</span><span class="gericht__punkte" aria-hidden="true"></span><span class="gericht__preis preis">1,50 €</span></p>
+            
+          </div>
+        </li>
+      </ul>
+      <p class="kategorie__hinweis">Flaschengetränke zzgl. Pfand.</p>
+      <p class="kategorie__hinweis">Getränke mit Zusatzstoff 11: Erhöhter Koffeingehalt. Für Kinder und schwangere oder stillende Frauen nicht empfohlen.</p>
+    </section>
+    <div class="karte__fuss">
+      <p><strong>Zusatzstoffe:</strong> 1 mit Farbstoff, 2 mit Konservierungsstoff, 9 mit Süßungsmittel(n), 10 enthält eine Phenylalaninquelle, 11 koffeinhaltig.</p>
+      <p>Informationen zu Allergenen finden Sie auf unserer <a href="/allergene/">Allergenseite</a> und bei unserem Personal.</p>
+    </div>
+  </div>
+</section>
+<section class="theke" aria-labelledby="theke-titel">
+  <div class="innen theke__inhalt">
+    <h2 id="theke-titel">Frisch aus unserer Fleischtheke</h2>
+    <p>Al-Medina ist auch eine Fleischerei: Das Fleisch für unsere Gerichte kommt aus der eigenen Theke, und Sie können es bei uns auch frisch für zu Hause kaufen.</p>
+  </div>
+</section>
+<section class="dunkel abschnitt besuch" id="besuch" aria-labelledby="besuch-titel">
+  <div class="innen">
+    <h2 class="abschnitt__titel" id="besuch-titel">So finden Sie uns</h2>
+    <div class="besuch__raster">
+      <div>
+        <h3>Öffnungszeiten</h3>
+        <p class="besuch__gross">Montag bis Samstag<br>09:00 bis 19:00 Uhr</p>
+        <p class="besuch__leise">Frühstück ab 9 Uhr.<br>Lieferung über Lieferando 10:00 bis 18:00 Uhr im Umkreis von 5 km.</p>
+      </div>
+      <div>
+        <h3>Adresse</h3>
+        <p class="besuch__gross">Sagerstraße 45<br>28757 Bremen</p>
+        <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Al-Medina%2C%20Sagerstra%C3%9Fe%2045%2C%2028757%20Bremen" rel="noopener">Route in Google Maps öffnen</a></p>
+      </div>
+      <div>
+        <h3>Bestellen</h3>
+        <p class="besuch__gross"><a href="tel:+4942149151178" class="besuch__telefon">0421 49151178</a></p>
+        <p class="besuch__leise">Anrufen, vorbestellen und abholen zu Ladenpreisen.</p>
+        <p><a href="https://www.lieferando.de/speisekarte/al-medina-bremen" rel="noopener">Auf Lieferando bestellen</a></p>
+        <ul>
+          <li><a href="https://www.tiktok.com/@almedinabremen" rel="noopener">TikTok @almedinabremen</a></li>
+          <li><a href="https://share.google/3YFYoKey8p1WypJS1" rel="noopener">Unser Google-Profil</a></li>
+          <!-- Instagram: Handle in al-medina-daten.json unter firma.instagram eintragen, dann erscheint der Link automatisch.
+        <li><a href="https://www.instagram.com/HANDLE/" rel="noopener">Instagram</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="dunkel fuss">
+  <div class="innen fuss__innen">
+    <p>&copy; 2026 Al-Medina UG (haftungsbeschränkt)</p>
+    <nav aria-label="Rechtliches">
+      <ul>
+        <li><a href="/impressum/">Impressum</a></li>
+        <li><a href="/datenschutz/">Datenschutz</a></li>
+        <li><a href="/allergene/">Allergene</a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>

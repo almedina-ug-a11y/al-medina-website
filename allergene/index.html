@@ -1,0 +1,1001 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Allergene und Zusatzstoffe | Al-Medina Bremen</title>
+<meta name="description" content="Allergene und Zusatzstoffe aller Gerichte und Getränke von Al-Medina Bremen, mit Suche und Filter. Stand 05.11.2026.">
+<link rel="canonical" href="https://www.al-medina-bremen.de/allergene/">
+<meta name="theme-color" content="#1A1612">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="de_DE">
+<meta property="og:site_name" content="Al-Medina Bremen">
+<meta property="og:title" content="Allergene und Zusatzstoffe | Al-Medina Bremen">
+<meta property="og:description" content="Allergene und Zusatzstoffe aller Gerichte und Getränke von Al-Medina Bremen, mit Suche und Filter. Stand 05.11.2026.">
+<meta property="og:url" content="https://www.al-medina-bremen.de/allergene/">
+<meta property="og:image" content="https://www.al-medina-bremen.de/og-bild.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Al-Medina Bremen, Teller mit Shawarma Rind, Salat und Kartoffeln">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/icon-512.png" type="image/png" sizes="512x512">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preload" href="/fonts/big-shoulders-display-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/figtree-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/figtree-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/figtree-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/ibm-plex-mono-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+<script>document.documentElement.classList.add('js')</script>
+<style>
+@font-face{font-family:'Big Shoulders Display';font-style:normal;font-weight:800;font-display:swap;src:url(/fonts/big-shoulders-display-latin-800-normal.woff2) format('woff2')}
+@font-face{font-family:'Figtree';font-style:normal;font-weight:400;font-display:swap;src:url(/fonts/figtree-latin-400-normal.woff2) format('woff2')}
+@font-face{font-family:'Figtree';font-style:normal;font-weight:600;font-display:swap;src:url(/fonts/figtree-latin-600-normal.woff2) format('woff2')}
+@font-face{font-family:'Figtree';font-style:normal;font-weight:700;font-display:swap;src:url(/fonts/figtree-latin-700-normal.woff2) format('woff2')}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;font-display:swap;src:url(/fonts/ibm-plex-mono-latin-600-normal.woff2) format('woff2')}
+/* Al-Medina Bremen. Farben, Schriften und Bildsprache laut Markenauftritt. */
+:root {
+  --dunkel: #1A1612;
+  --stein: #EFEEE9;
+  --weiss: #FFFFFF;
+  --olive: #4C5A1F;
+  --olive-tief: #3D4818;
+  --rot: #9E2B25;
+  --grau: #6C665F;
+  --stein-auf-dunkel: rgba(239, 238, 233, .74);
+  --linie-hell: rgba(26, 22, 18, .16);
+  --linie-dunkel: rgba(239, 238, 233, .2);
+  --display: 'Big Shoulders Display', 'Arial Narrow', 'Roboto Condensed', sans-serif;
+  --text: 'Figtree', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --mono: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+  --rand: clamp(1rem, 4vw, 3rem);
+  --breite: 78rem;
+  --fokus: var(--dunkel);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-padding-top: 4.5rem; }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+body {
+  margin: 0;
+  background: var(--stein);
+  color: var(--dunkel);
+  font: 400 1.0625rem/1.55 var(--text);
+  overflow-x: clip;
+}
+img { display: block; max-width: 100%; height: auto; }
+a { color: inherit; text-underline-offset: .18em; text-decoration-thickness: .08em; }
+a:hover { text-decoration-thickness: .14em; }
+:focus-visible { outline: 3px solid var(--fokus); outline-offset: 3px; border-radius: 4px; }
+.dunkel { --fokus: var(--stein); background: var(--dunkel); color: var(--stein); }
+p { margin: 0 0 1em; }
+h1, h2, h3, h4 { margin: 0; font-family: var(--display); font-weight: 800; text-transform: uppercase; line-height: 1.05; letter-spacing: .005em; }
+sup { font-family: var(--text); font-weight: 600; font-size: .62em; line-height: 0; vertical-align: .9em; text-transform: none; letter-spacing: 0; margin-left: .12em; }
+
+.nobr { white-space: nowrap; }
+.vh { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; }
+.innen { max-width: var(--breite); margin-inline: auto; padding-inline: var(--rand); }
+.preis { font-family: var(--mono); font-weight: 600; white-space: nowrap; font-variant-numeric: tabular-nums; }
+
+.sprung { position: absolute; left: 1rem; top: -4rem; z-index: 50; background: var(--weiss); color: var(--dunkel); padding: .75rem 1rem; font-weight: 700; border-radius: 6px; }
+.sprung:focus { top: 1rem; }
+
+/* Logo-Fläche: Wortmarke oder hochgeladenes Logo */
+.logo--wortmarke { font-family: var(--display); font-weight: 800; text-transform: uppercase; letter-spacing: .01em; line-height: .8; white-space: nowrap; }
+.logo--bild { display: block; width: auto; }
+
+/* Kopfzeile */
+.kopf { position: relative; z-index: 2; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .25rem 1.5rem; padding-block: 1rem; }
+.kopf__marke { text-decoration: none; font-size: 1.75rem; }
+.kopf__marke .logo--bild { height: 1.75rem; }
+.kopf nav ul { display: flex; flex-wrap: wrap; gap: .25rem 1.25rem; margin: 0; padding: 0; list-style: none; font-weight: 600; font-size: .95rem; }
+.kopf nav a { text-decoration: none; display: inline-block; padding-block: .5rem; }
+.kopf nav a:hover { text-decoration: underline; }
+.kopf__nur-gross { display: none; }
+
+/* Hero */
+.hero { position: relative; overflow: hidden; }
+.hero__inhalt { position: relative; z-index: 1; padding-bottom: calc(60vw + 1rem); }
+.hero__marke { font-size: min(21.5vw, 13.5rem); margin-top: clamp(1rem, 4vw, 3rem); }
+.hero__marke .logo--bild { width: min(100%, 34rem); height: auto; margin-bottom: clamp(1.25rem, 4vw, 2.25rem); }
+.hero__claim { font-family: var(--display); font-weight: 800; text-transform: uppercase; font-size: clamp(1.9rem, 7.4vw, 3.6rem); line-height: 1.05; margin: .9rem 0 1rem; max-width: 14ch; }
+.hero__text { color: var(--stein-auf-dunkel); max-width: 34ch; font-size: 1.125rem; }
+.hero__aktionen { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1.5rem; }
+.hero__hinweis { color: var(--stein-auf-dunkel); font-size: .95rem; max-width: 44ch; margin: 1rem 0 0; }
+.hero__rabatt { display: inline-block; margin: 1rem 0 0; padding: .45rem 1rem; border-radius: 999px; background: var(--stein); color: var(--dunkel); font-weight: 700; }
+.hero__teller {
+  position: absolute; z-index: 0; border-radius: 50%;
+  width: 122vw; aspect-ratio: 1; left: -11vw; bottom: -62vw;
+  box-shadow: 0 0 0 1px var(--linie-dunkel), 0 30px 80px rgba(0, 0, 0, .45);
+}
+.hero__teller img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }
+@media (prefers-reduced-motion: no-preference) {
+  .hero__teller img { animation: servieren 1.4s cubic-bezier(.2, .7, .2, 1) both; }
+  @keyframes servieren { from { transform: rotate(-14deg) scale(1.04); } to { transform: none; } }
+}
+
+.knopf {
+  display: inline-flex; flex-direction: column; justify-content: center; gap: .1rem;
+  min-height: 3.5rem; padding: .7rem 1.5rem; border-radius: 999px;
+  font-weight: 700; font-size: 1.05rem; line-height: 1.2; text-decoration: none;
+  border: 2px solid transparent;
+}
+.knopf small { font-weight: 400; font-size: .85rem; }
+.knopf--olive { background: var(--olive); color: var(--weiss); }
+.knopf--olive:hover { background: var(--olive-tief); }
+.knopf--olive .preis { font-size: .95rem; letter-spacing: .02em; }
+.knopf--rahmen { border-color: var(--stein); color: var(--stein); }
+.knopf--rahmen:hover { background: rgba(239, 238, 233, .1); }
+
+/* Abschnitte */
+.abschnitt { padding-block: clamp(3.5rem, 9vw, 7rem); }
+.abschnitt__titel { font-size: clamp(3rem, 13vw, 7.5rem); margin-bottom: clamp(1.5rem, 4vw, 2.5rem); }
+
+/* Menüs */
+.menues { border-top: 1px solid var(--linie-dunkel); }
+.menues__liste { display: grid; gap: 3rem; margin: 0; padding: 0; list-style: none; }
+.menu__bild { width: min(100%, 22rem); aspect-ratio: 1; border-radius: 50%; object-fit: cover; margin-bottom: 1.5rem; }
+.menu__nr { font-family: var(--mono); font-weight: 600; font-size: .9rem; color: var(--stein-auf-dunkel); margin: 0 0 .35rem; }
+.menu__name { font-size: clamp(2.4rem, 9vw, 3.25rem); margin-bottom: .6rem; }
+.menu__inhalt { color: var(--stein-auf-dunkel); max-width: 30ch; }
+.menu__preise { display: flex; align-items: baseline; flex-wrap: wrap; gap: .25rem 1rem; margin: 0; }
+.menu__preise .preis { font-size: 2.25rem; color: var(--weiss); }
+.menu__statt { color: var(--stein-auf-dunkel); font-size: .95rem; }
+.menu__statt s { font-family: var(--mono); font-weight: 600; }
+
+/* Frühstück */
+.fruehstueck { --fokus: var(--weiss); background: var(--olive); color: var(--weiss); }
+.fruehstueck__raster { display: grid; gap: 2rem; align-items: center; }
+.fruehstueck h2 { font-size: clamp(3.25rem, 15vw, 8.5rem); margin-bottom: 1.5rem; }
+.fruehstueck p { max-width: 38ch; font-size: 1.15rem; }
+.fruehstueck__bild { width: min(70vw, 24rem); aspect-ratio: 1; border-radius: 50%; object-fit: cover; box-shadow: 0 24px 60px rgba(0, 0, 0, .3); }
+.fruehstueck a { font-weight: 700; }
+
+/* Speisekarte */
+.bestellwege { display: grid; margin: 0 0 2rem; border-top: 3px solid var(--dunkel); }
+.bestellweg { padding: 1.5rem 0 1.75rem; }
+.bestellweg + .bestellweg { border-top: 1px solid var(--linie-hell); }
+.bestellweg h3 { font-size: clamp(1.9rem, 7vw, 2.4rem); margin-bottom: .6rem; }
+.bestellweg p { margin: 0 0 1.1rem; max-width: 42ch; color: var(--grau); }
+.bestellweg strong { color: var(--dunkel); font-weight: 600; }
+.bestellweg__rabatt { display: inline-block; padding: .3rem .9rem; border-radius: 999px; background: var(--dunkel); color: var(--stein) !important; font-weight: 700; }
+.bestellweg__link { display: inline-block; padding-block: .5rem; font-weight: 700; color: var(--dunkel); }
+.karte__legende { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; margin: 0 0 2rem; padding: 0; list-style: none; color: var(--grau); font-size: .95rem; }
+.karte__legende li { display: flex; align-items: center; gap: .4rem; }
+.katnav { position: sticky; top: 0; z-index: 10; background: var(--stein); border-bottom: 1px solid var(--linie-hell); }
+.katnav ul { display: flex; gap: .5rem; margin: 0; padding: .75rem var(--rand); list-style: none; overflow-x: auto; scrollbar-width: none; max-width: var(--breite); margin-inline: auto; }
+.katnav ul::-webkit-scrollbar { display: none; }
+.katnav a { display: block; white-space: nowrap; padding: .45rem .9rem; border: 1.5px solid var(--dunkel); border-radius: 999px; text-decoration: none; font-weight: 600; font-size: .9rem; }
+.katnav a:hover { background: var(--dunkel); color: var(--stein); }
+
+.kategorie { padding-top: clamp(2.5rem, 6vw, 4rem); }
+.kategorie__titel { font-size: clamp(2.75rem, 11vw, 5rem); padding-bottom: .9rem; border-bottom: 3px solid var(--dunkel); margin-bottom: 1.5rem; }
+.kategorie__hinweis { color: var(--grau); font-size: .95rem; margin: 1.25rem 0 0; max-width: 60ch; }
+.gerichte { display: grid; gap: 1.5rem 3.5rem; margin: 0; padding: 0; list-style: none; }
+.gericht { display: grid; grid-template-columns: 5.75rem 1fr; gap: 1rem; align-items: center; }
+.gerichte--ohne-bild .gericht { grid-template-columns: 1fr; }
+.gericht__bild, .gericht__kreis { width: 5.75rem; height: 5.75rem; border-radius: 50%; }
+.gericht__bild { display: block; object-fit: cover; background: var(--dunkel); }
+.gericht__visual { position: relative; display: block; }
+.gericht__visual .gericht__nr {
+  position: absolute; left: -.2rem; bottom: .05rem; min-width: 0; padding: .12rem .45rem; border-radius: 999px;
+  background: var(--dunkel); color: var(--stein); font-size: .78rem; line-height: 1.2; box-shadow: 0 0 0 2px var(--stein);
+}
+.gericht__kreis {
+  display: grid; place-items: center; padding: .6rem; text-align: center;
+  background: var(--dunkel); color: var(--stein);
+  box-shadow: inset 0 0 0 .45rem #2B251F;
+  font-family: var(--display); font-weight: 800; text-transform: uppercase; line-height: .9;
+  font-size: 1.05rem; overflow-wrap: anywhere;
+}
+.gericht__kopf { display: flex; align-items: baseline; gap: .5rem; margin: 0; }
+.gericht__nr { flex: none; min-width: 2.6em; font-family: var(--mono); font-weight: 600; font-size: .85rem; color: var(--grau); font-variant-numeric: tabular-nums; }
+.gericht__name { font-family: var(--display); font-weight: 800; text-transform: uppercase; font-size: 1.6rem; line-height: 1.05; flex: 0 1 auto; }
+.gericht__name .chili { width: .7em; height: .7em; margin-left: .2em; vertical-align: -.02em; }
+.gericht__punkte { flex: 1 1 1rem; min-width: 1rem; border-bottom: 2px dotted rgba(26, 22, 18, .45); transform: translateY(-.3em); }
+.gericht__preis { font-size: 1.1rem; }
+.gericht__preis--inklusive { font-family: var(--text); font-weight: 600; font-size: .95rem; color: var(--grau); }
+.gericht__beschreibung { margin: .3rem 0 0; color: var(--grau); font-size: .98rem; line-height: 1.45; max-width: 46ch; }
+.chili { display: inline-block; width: 1.1em; height: 1.1em; color: var(--rot); flex: none; }
+
+.karte__fuss { margin-top: clamp(3rem, 7vw, 4.5rem); padding-top: 1.5rem; border-top: 1px solid var(--linie-hell); color: var(--grau); font-size: .95rem; }
+.karte__fuss p { max-width: 70ch; }
+.karte__fuss a { color: var(--dunkel); font-weight: 600; }
+
+/* Fleischtheke */
+.theke { background: var(--weiss); }
+.theke__inhalt { display: grid; gap: .75rem; padding-block: clamp(2.5rem, 6vw, 3.5rem); }
+.theke h2 { font-size: clamp(1.9rem, 6vw, 2.75rem); }
+.theke p { margin: 0; max-width: 56ch; color: var(--grau); font-size: 1.1rem; }
+
+/* Besuch */
+.besuch__raster { display: grid; gap: 2.5rem; }
+.besuch h3 { font-size: 1.9rem; margin-bottom: .75rem; }
+.besuch p { margin: 0 0 .5rem; }
+.besuch__gross { font-family: var(--display); font-weight: 800; text-transform: uppercase; font-size: clamp(2.2rem, 8vw, 3rem); line-height: 1.05; margin: 0 0 .75rem; }
+.besuch__leise { color: var(--stein-auf-dunkel); }
+.besuch__telefon { font-family: var(--mono); font-weight: 600; font-size: clamp(1.7rem, 6vw, 2.3rem); text-decoration: none; white-space: nowrap; }
+.besuch ul { margin: 0; padding: 0; list-style: none; }
+.besuch li + li { margin-top: .35rem; }
+.besuch a { font-weight: 600; }
+.besuch .knopf { margin-top: .75rem; }
+
+/* Fuß */
+.fuss { border-top: 1px solid var(--linie-dunkel); padding-block: 2rem 2.5rem; font-size: .95rem; }
+.fuss__innen { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem 2rem; align-items: center; }
+.fuss ul { display: flex; flex-wrap: wrap; gap: .25rem 1.5rem; margin: 0; padding: 0; list-style: none; }
+.fuss a { display: inline-block; padding-block: .35rem; }
+.fuss p { margin: 0; color: var(--stein-auf-dunkel); }
+
+/* Unterseiten */
+.seitenkopf { padding-bottom: clamp(2rem, 6vw, 3.5rem); }
+.seitenkopf h1 { font-size: clamp(2.9rem, 12vw, 6.5rem); margin-top: clamp(1.5rem, 5vw, 3rem); }
+.seitenkopf__unter { color: var(--stein-auf-dunkel); margin: 1rem 0 0; }
+.text, .agseite { padding-block: clamp(2.5rem, 6vw, 4rem) clamp(3.5rem, 8vw, 6rem); }
+.text__spalte { max-width: 44rem; }
+.text h2 { font-size: clamp(1.8rem, 6vw, 2.4rem); margin: 2.5rem 0 .75rem; }
+.text h2:first-child { margin-top: 0; }
+.text h3 { font-family: var(--text); text-transform: none; font-weight: 700; font-size: 1.1rem; line-height: 1.3; margin: 1.5rem 0 .4rem; }
+.text ul { padding-left: 1.2rem; }
+.text li { margin-bottom: .35rem; }
+.platzhalter { background: #FBE9E7; color: var(--rot); font-weight: 700; padding: .05em .35em; border-radius: 4px; }
+
+/* Allergene */
+.hinweis { border-left: 5px solid var(--rot); background: var(--weiss); padding: 1rem 1.25rem; border-radius: 0 8px 8px 0; max-width: 60ch; }
+.hinweis p { margin: 0; }
+.hinweis strong { color: var(--rot); }
+.stand { font-family: var(--mono); font-weight: 600; font-size: .95rem; }
+.js-nur { display: none; }
+.js .js-nur { display: block; }
+.filter { background: var(--weiss); border-radius: 12px; padding: 1.25rem; margin: 2rem 0 0; }
+.filter label, .filter legend { display: block; font-weight: 700; margin-bottom: .5rem; }
+.filter input[type="search"] {
+  width: 100%; font: inherit; font-size: 1.1rem; padding: .85rem 1rem;
+  border: 2px solid var(--dunkel); border-radius: 10px; background: var(--weiss); color: var(--dunkel);
+}
+.filter fieldset { border: 0; padding: 0; margin: 1.5rem 0 0; min-width: 0; }
+.filter legend { padding: 0; }
+.filter__erklaerung { color: var(--grau); font-size: .95rem; margin: 0 0 .75rem; }
+.chips { display: flex; flex-wrap: wrap; gap: .5rem; }
+.chip {
+  display: inline-flex; align-items: center; gap: .45rem; min-height: 2.75rem; padding: .4rem .9rem .4rem .4rem;
+  border: 1.5px solid var(--dunkel); border-radius: 999px; background: var(--weiss); color: var(--dunkel);
+  font: 600 .95rem/1.2 var(--text); cursor: pointer;
+}
+.chip__code { display: grid; place-items: center; width: 1.9rem; height: 1.9rem; border-radius: 50%; background: var(--stein); font-family: var(--mono); font-size: .9rem; }
+.chip[aria-pressed="true"] { background: var(--dunkel); color: var(--stein); }
+.chip[aria-pressed="true"] .chip__code { background: var(--rot); color: var(--weiss); }
+.filter__status { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .75rem; margin-top: 1.25rem; }
+.filter__status p { margin: 0; font-weight: 600; }
+.knopf-text { font: 600 1rem var(--text); color: var(--dunkel); background: none; border: 0; padding: .5rem 0; text-decoration: underline; cursor: pointer; }
+
+.agliste { margin-top: 1rem; }
+.agkat { padding-top: 2.5rem; }
+.agkat h2 { font-size: clamp(2.2rem, 9vw, 3.5rem); padding-bottom: .6rem; border-bottom: 3px solid var(--dunkel); margin-bottom: .5rem; }
+.agkat ul.eintraege { margin: 0; padding: 0; list-style: none; }
+.eintrag { padding: 1rem 0; border-bottom: 1px solid var(--linie-hell); }
+.eintrag h3 { font-size: 1.55rem; line-height: 1.05; }
+.eintrag__nr { font-family: var(--mono); font-weight: 600; font-size: .58em; color: var(--grau); margin-right: .2em; vertical-align: .18em; }
+.eintrag .chili { width: .7em; height: .7em; margin-left: .2em; }
+.eintrag dl { margin: .6rem 0 0; display: grid; gap: .35rem; }
+.eintrag dt { font-size: .85rem; font-weight: 700; color: var(--grau); }
+.eintrag dd { margin: 0; }
+.badges { display: flex; flex-wrap: wrap; gap: .35rem .5rem; margin: 0; padding: 0; list-style: none; }
+.badges li { display: inline-flex; align-items: center; gap: .4rem; background: var(--weiss); border-radius: 999px; padding: .2rem .7rem .2rem .25rem; font-size: .95rem; }
+.badges b { display: grid; place-items: center; width: 1.6rem; height: 1.6rem; border-radius: 50%; background: var(--dunkel); color: var(--stein); font-family: var(--mono); font-size: .85rem; }
+.keine { color: var(--grau); }
+.leer { background: var(--weiss); border-radius: 12px; padding: 1.25rem; margin-top: 2rem; font-weight: 600; }
+.legende { margin-top: clamp(3rem, 8vw, 5rem); display: grid; gap: 2.5rem; }
+.legende h2 { font-size: clamp(2rem, 8vw, 3rem); margin-bottom: 1rem; }
+.legende ul { margin: 0; padding: 0; list-style: none; display: grid; gap: .4rem; }
+.legende li { display: flex; gap: .75rem; align-items: baseline; }
+.legende li b { font-family: var(--mono); min-width: 1.75rem; }
+[hidden] { display: none !important; }
+
+@media (min-width: 48rem) {
+  .kopf__nur-gross { display: list-item; }
+  .menues__liste { grid-template-columns: repeat(3, 1fr); gap: 2.5rem; }
+  .fruehstueck__raster { grid-template-columns: 1.3fr 1fr; }
+  .fruehstueck__bild { justify-self: end; }
+  .gericht { grid-template-columns: 7rem 1fr; gap: 1.25rem; }
+  .gericht__bild, .gericht__kreis { width: 7rem; height: 7rem; }
+  .gericht__kreis { font-size: 1.25rem; }
+  .gericht__name { font-size: 1.85rem; }
+  .besuch__raster { grid-template-columns: repeat(3, 1fr); }
+  .bestellwege { grid-template-columns: 1fr 1fr; }
+  .bestellweg { padding-right: 2.5rem; }
+  .bestellweg + .bestellweg { border-top: 0; border-left: 1px solid var(--linie-hell); padding-left: 2.5rem; padding-right: 0; }
+  .legende { grid-template-columns: 1fr 1fr; }
+}
+
+@media (min-width: 64rem) {
+  .hero__inhalt { padding-bottom: clamp(4rem, 8vw, 7rem); min-height: min(52rem, 100svh); }
+  .hero__teller { width: min(50vw, 52rem); left: auto; right: max(-9vw, -8rem); bottom: auto; top: 50%; translate: 0 -46%; }
+  .hero__claim { max-width: 17ch; }
+  .hero__text { max-width: 36ch; }
+  .gerichte { grid-template-columns: 1fr 1fr; }
+  .agkat ul.eintraege { display: grid; grid-template-columns: 1fr 1fr; column-gap: 3rem; }
+}
+
+</style>
+</head>
+<body>
+<a class="sprung" href="#inhalt">Zum Inhalt springen</a>
+<header class="dunkel seitenkopf">
+  <div class="innen">
+    <div class="kopf">
+      <a class="kopf__marke" href="/" aria-label="Al-Medina, zur Startseite"><img class="logo logo--bild" src="/img/logo-hell-38f33b6e.svg" width="772" height="168" alt="Al-Medina"></a>
+      <nav aria-label="Hauptnavigation">
+      <ul>
+        <li class="kopf__nur-gross"><a href="/">Startseite</a></li>
+        <li class="kopf__nur-gross"><a href="/#menues">Menüs</a></li>
+        <li><a href="/#speisekarte">Speisekarte</a></li>
+        <li><a href="/allergene/">Allergene</a></li>
+        <li><a href="/#besuch">Anfahrt</a></li>
+      </ul>
+    </nav>
+    </div>
+    <h1>Allergene &amp; Zusatzstoffe</h1>
+    <p class="seitenkopf__unter"><span class="stand">Stand: 05.11.2026</span><br>Alle 62 Gerichte und Getränke unserer Speisekarte.</p>
+  </div>
+</header>
+<main id="inhalt" class="innen agseite">
+  <div class="hinweis"><p><strong>Hinweis:</strong> Trotz sorgfältiger Zubereitung können Spuren anderer Allergene enthalten sein. In unserer Küche werden unter anderem Weizen, Milch, Eier und Sesam verarbeitet. Bei Fragen sprechen Sie uns bitte an.</p></div>
+
+  <div class="filter js-nur" id="filter">
+    <label for="suche">Gericht oder Nummer suchen</label>
+    <input type="search" id="suche" placeholder="zum Beispiel Dürüm, Käse oder 401" autocomplete="off" enterkeyhint="search">
+    <fieldset>
+      <legend>Allergene ausschließen</legend>
+      <p class="filter__erklaerung">Tippen Sie auf ein Allergen. Gerichte, die es enthalten, werden ausgeblendet.</p>
+      <div class="chips">
+          <button type="button" class="chip" aria-pressed="false" data-allergen="A" title="Glutenhaltiges Getreide"><span class="chip__code" aria-hidden="true">A</span>ohne Gluten</button>
+          <button type="button" class="chip" aria-pressed="false" data-allergen="B" title="Krebstiere"><span class="chip__code" aria-hidden="true">B</span>ohne Krebstiere</button>
+          <button type="button" class="chip" aria-pressed="false" data-allergen="C" title="Eier"><span class="chip__code" aria-hidden="true">C</span>ohne Eier</button>
+          <button type="button" class="chip" aria-pressed="false" data-allergen="D" title="Fisch"><span class="chip__code" aria-hidden="true">D</span>ohne Fisch</button>
+          <button type="button" class="chip" aria-pressed="false" data-allergen="E" title="Erdnüsse"><span class="chip__code" aria-hidden="true">E</span>ohne Erdnüsse</button>
+          <button type="button" class="chip" aria-pressed="false" data-allergen="F" title="Soja"><span class="chip__code" aria-hidden="true">F</span>ohne Soja</button>
+          <button type="button" class="chip" aria-pressed="false" data-allergen="G" title="Milch / Laktose"><span class="chip__code" aria-hidden="true">G</span>ohne Milch</button>
+          <button type="button" class="chip" aria-pressed="false" data-allergen="H" title="Schalenfrüchte (Nüsse)"><span class="chip__code" aria-hidden="true">H</span>ohne Schalenfrüchte</button>
+          <button type="button" class="chip" aria-pressed="false" data-allergen="L" title="Sellerie"><span class="chip__code" aria-hidden="true">L</span>ohne Sellerie</button>
+          <button type="button" class="chip" aria-pressed="false" data-allergen="M" title="Senf"><span class="chip__code" aria-hidden="true">M</span>ohne Senf</button>
+          <button type="button" class="chip" aria-pressed="false" data-allergen="N" title="Sesam"><span class="chip__code" aria-hidden="true">N</span>ohne Sesam</button>
+          <button type="button" class="chip" aria-pressed="false" data-allergen="O" title="Sulfite"><span class="chip__code" aria-hidden="true">O</span>ohne Sulfite</button>
+          <button type="button" class="chip" aria-pressed="false" data-allergen="P" title="Lupinen"><span class="chip__code" aria-hidden="true">P</span>ohne Lupinen</button>
+          <button type="button" class="chip" aria-pressed="false" data-allergen="R" title="Weichtiere"><span class="chip__code" aria-hidden="true">R</span>ohne Weichtiere</button>
+      </div>
+    </fieldset>
+    <div class="filter__status">
+      <p id="treffer" role="status" aria-live="polite">62 von 62 Gerichten und Getränken</p>
+      <button type="button" class="knopf-text" id="zuruecksetzen" hidden>Filter zurücksetzen</button>
+    </div>
+  </div>
+
+  <div class="agliste">
+    <section class="agkat" aria-labelledby="ag-manakish">
+      <h2 id="ag-manakish">Manakish</h2>
+      <ul class="eintraege">
+        <li class="eintrag" id="ag-manakish-manakish-zatar" data-nr="101" data-name="Manakish Zatar" data-allergene="A G N">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>101</span> Manakish Zatar</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>A</b>Glutenhaltiges Getreide</li><li><b>G</b>Milch / Laktose</li><li><b>N</b>Sesam</li></ul></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-manakish-manakish-kaese" data-nr="102" data-name="Manakish Käse" data-allergene="A G">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>102</span> Manakish Käse</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>A</b>Glutenhaltiges Getreide</li><li><b>G</b>Milch / Laktose</li></ul></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-manakish-manakish-kaese-zatar" data-nr="103" data-name="Manakish Käse-Zatar" data-allergene="A G N">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>103</span> Manakish Käse-Zatar</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>A</b>Glutenhaltiges Getreide</li><li><b>G</b>Milch / Laktose</li><li><b>N</b>Sesam</li></ul></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-manakish-manakish-mhamara" data-nr="104" data-name="Manakish Mhamara" data-allergene="A G N">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>104</span> Manakish Mhamara</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>A</b>Glutenhaltiges Getreide</li><li><b>G</b>Milch / Laktose</li><li><b>N</b>Sesam</li></ul></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-manakish-manakish-mhamara-kaese" data-nr="105" data-name="Manakish Mhamara-Käse" data-allergene="A G N">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>105</span> Manakish Mhamara-Käse</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>A</b>Glutenhaltiges Getreide</li><li><b>G</b>Milch / Laktose</li><li><b>N</b>Sesam</li></ul></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-manakish-manakish-lahmacun" data-nr="106" data-name="Manakish Lahmacun" data-allergene="A G">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>106</span> Manakish Lahmacun</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>A</b>Glutenhaltiges Getreide</li><li><b>G</b>Milch / Laktose</li></ul></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-manakish-manakish-sis-rind" data-nr="107" data-name="Manakish Sis Rind" data-allergene="A G">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>107</span> Manakish Sis Rind</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>A</b>Glutenhaltiges Getreide</li><li><b>G</b>Milch / Laktose</li></ul></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-manakish-manakish-sis-tavuk" data-nr="108" data-name="Manakish Sis Tavuk" data-allergene="A G">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>108</span> Manakish Sis Tavuk</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>A</b>Glutenhaltiges Getreide</li><li><b>G</b>Milch / Laktose</li></ul></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-manakish-manakish-kaese-sucuk" data-nr="109" data-name="Manakish Käse-Sucuk" data-allergene="A G">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>109</span> Manakish Käse-Sucuk</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>A</b>Glutenhaltiges Getreide</li><li><b>G</b>Milch / Laktose</li></ul></dd>
+            <dt>Zusatzstoffe</dt>
+            <dd>2 mit Konservierungsstoff</dd>
+          </dl>
+        </li>
+      </ul>
+    </section>
+    <section class="agkat" aria-labelledby="ag-pide">
+      <h2 id="ag-pide">Pide</h2>
+      <ul class="eintraege">
+        <li class="eintrag" id="ag-pide-pide-kaese" data-nr="201" data-name="Pide Käse" data-allergene="A G">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>201</span> Pide Käse</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>A</b>Glutenhaltiges Getreide</li><li><b>G</b>Milch / Laktose</li></ul></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-pide-pide-kaese-sucuk" data-nr="202" data-name="Pide Käse-Sucuk" data-allergene="A G">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>202</span> Pide Käse-Sucuk</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>A</b>Glutenhaltiges Getreide</li><li><b>G</b>Milch / Laktose</li></ul></dd>
+            <dt>Zusatzstoffe</dt>
+            <dd>2 mit Konservierungsstoff</dd>
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-pide-pide-hackfleisch" data-nr="203" data-name="Pide Hackfleisch" data-allergene="A G">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>203</span> Pide Hackfleisch</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>A</b>Glutenhaltiges Getreide</li><li><b>G</b>Milch / Laktose</li></ul></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-pide-pide-sis-rind" data-nr="204" data-name="Pide Sis Rind" data-allergene="A G">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>204</span> Pide Sis Rind</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>A</b>Glutenhaltiges Getreide</li><li><b>G</b>Milch / Laktose</li></ul></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-pide-pide-sis-tavuk" data-nr="205" data-name="Pide Sis Tavuk" data-allergene="A G">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>205</span> Pide Sis Tavuk</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>A</b>Glutenhaltiges Getreide</li><li><b>G</b>Milch / Laktose</li></ul></dd>
+            
+          </dl>
+        </li>
+      </ul>
+    </section>
+    <section class="agkat" aria-labelledby="ag-pizza">
+      <h2 id="ag-pizza">Pizza</h2>
+      <ul class="eintraege">
+        <li class="eintrag" id="ag-pizza-pizza-margherita" data-nr="301" data-name="Pizza Margherita" data-allergene="A G">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>301</span> Pizza Margherita</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>A</b>Glutenhaltiges Getreide</li><li><b>G</b>Milch / Laktose</li></ul></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-pizza-pizza-tonno" data-nr="302" data-name="Pizza Tonno" data-allergene="A D G">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>302</span> Pizza Tonno</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>A</b>Glutenhaltiges Getreide</li><li><b>D</b>Fisch</li><li><b>G</b>Milch / Laktose</li></ul></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-pizza-pizza-vegetarisch" data-nr="303" data-name="Pizza Vegetarisch" data-allergene="A G">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>303</span> Pizza Vegetarisch</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>A</b>Glutenhaltiges Getreide</li><li><b>G</b>Milch / Laktose</li></ul></dd>
+            
+          </dl>
+        </li>
+      </ul>
+    </section>
+    <section class="agkat" aria-labelledby="ag-dueruem">
+      <h2 id="ag-dueruem">Dürüm</h2>
+      <ul class="eintraege">
+        <li class="eintrag" id="ag-dueruem-dueruem-shawarma-haehnchen" data-nr="401" data-name="Dürüm Shawarma Hähnchen" data-allergene="A G">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>401</span> Dürüm Shawarma Hähnchen</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>A</b>Glutenhaltiges Getreide</li><li><b>G</b>Milch / Laktose</li></ul></dd>
+            <dt>Zusatzstoffe</dt>
+            <dd>2 mit Konservierungsstoff</dd>
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-dueruem-dueruem-shawarma-rind" data-nr="402" data-name="Dürüm Shawarma Rind" data-allergene="A G N">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>402</span> Dürüm Shawarma Rind</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>A</b>Glutenhaltiges Getreide</li><li><b>G</b>Milch / Laktose</li><li><b>N</b>Sesam</li></ul></dd>
+            <dt>Zusatzstoffe</dt>
+            <dd>2 mit Konservierungsstoff</dd>
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-dueruem-dueruem-sis-tavuk" data-nr="403" data-name="Dürüm Sis Tavuk" data-allergene="A G">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>403</span> Dürüm Sis Tavuk</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>A</b>Glutenhaltiges Getreide</li><li><b>G</b>Milch / Laktose</li></ul></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-dueruem-dueruem-fajita" data-nr="404" data-name="Dürüm Fajita" data-allergene="A G">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>404</span> Dürüm Fajita</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>A</b>Glutenhaltiges Getreide</li><li><b>G</b>Milch / Laktose</li></ul></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-dueruem-dueruem-koefte" data-nr="405" data-name="Dürüm Köfte" data-allergene="A G N">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>405</span> Dürüm Köfte</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>A</b>Glutenhaltiges Getreide</li><li><b>G</b>Milch / Laktose</li><li><b>N</b>Sesam</li></ul></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-dueruem-dueruem-crispy-chicken" data-nr="406" data-name="Dürüm Crispy Chicken" data-allergene="A C G">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>406</span> Dürüm Crispy Chicken</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>A</b>Glutenhaltiges Getreide</li><li><b>C</b>Eier</li><li><b>G</b>Milch / Laktose</li></ul></dd>
+            
+          </dl>
+        </li>
+      </ul>
+    </section>
+    <section class="agkat" aria-labelledby="ag-wraps-im-arabischen-brot">
+      <h2 id="ag-wraps-im-arabischen-brot">Wraps im arabischen Brot</h2>
+      <ul class="eintraege">
+        <li class="eintrag" id="ag-wraps-im-arabischen-brot-wrap-koefte" data-nr="501" data-name="Wrap Köfte" data-allergene="A N">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>501</span> Wrap Köfte</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>A</b>Glutenhaltiges Getreide</li><li><b>N</b>Sesam</li></ul></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-wraps-im-arabischen-brot-wrap-sis-tavuk" data-nr="502" data-name="Wrap Sis Tavuk" data-allergene="A G">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>502</span> Wrap Sis Tavuk</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>A</b>Glutenhaltiges Getreide</li><li><b>G</b>Milch / Laktose</li></ul></dd>
+            <dt>Zusatzstoffe</dt>
+            <dd>2 mit Konservierungsstoff</dd>
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-wraps-im-arabischen-brot-wrap-shawarma-rind" data-nr="503" data-name="Wrap Shawarma Rind" data-allergene="A N">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>503</span> Wrap Shawarma Rind</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>A</b>Glutenhaltiges Getreide</li><li><b>N</b>Sesam</li></ul></dd>
+            <dt>Zusatzstoffe</dt>
+            <dd>2 mit Konservierungsstoff</dd>
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-wraps-im-arabischen-brot-wrap-falafel" data-nr="504" data-name="Wrap Falafel" data-allergene="A G N">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>504</span> Wrap Falafel</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>A</b>Glutenhaltiges Getreide</li><li><b>G</b>Milch / Laktose</li><li><b>N</b>Sesam</li></ul></dd>
+            <dt>Zusatzstoffe</dt>
+            <dd>2 mit Konservierungsstoff</dd>
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-wraps-im-arabischen-brot-arayes-kafta" data-nr="505" data-name="Arayes Kafta" data-allergene="A G N">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>505</span> Arayes Kafta</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>A</b>Glutenhaltiges Getreide</li><li><b>G</b>Milch / Laktose</li><li><b>N</b>Sesam</li></ul></dd>
+            
+          </dl>
+        </li>
+      </ul>
+    </section>
+    <section class="agkat" aria-labelledby="ag-tellergerichte">
+      <h2 id="ag-tellergerichte">Tellergerichte</h2>
+      <ul class="eintraege">
+        <li class="eintrag" id="ag-tellergerichte-kafta-teller" data-nr="601" data-name="Kafta Teller" data-allergene="">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>601</span> Kafta Teller</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><span class="keine">Enthält keines der 14 Hauptallergene.</span></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-tellergerichte-sis-tavuk-teller" data-nr="602" data-name="Sis Tavuk Teller" data-allergene="G">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>602</span> Sis Tavuk Teller</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>G</b>Milch / Laktose</li></ul></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-tellergerichte-shawarma-rind-teller" data-nr="603" data-name="Shawarma Rind Teller" data-allergene="G N">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>603</span> Shawarma Rind Teller</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>G</b>Milch / Laktose</li><li><b>N</b>Sesam</li></ul></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-tellergerichte-crispy-chicken-teller" data-nr="604" data-name="Crispy Chicken Teller" data-allergene="A C">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>604</span> Crispy Chicken Teller</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>A</b>Glutenhaltiges Getreide</li><li><b>C</b>Eier</li></ul></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-tellergerichte-falafel-teller" data-nr="605" data-name="Falafel Teller" data-allergene="G N">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>605</span> Falafel Teller</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>G</b>Milch / Laktose</li><li><b>N</b>Sesam</li></ul></dd>
+            <dt>Zusatzstoffe</dt>
+            <dd>2 mit Konservierungsstoff</dd>
+          </dl>
+        </li>
+      </ul>
+    </section>
+    <section class="agkat" aria-labelledby="ag-salate">
+      <h2 id="ag-salate">Salate</h2>
+      <ul class="eintraege">
+        <li class="eintrag" id="ag-salate-chicken-caesar-salat" data-nr="701" data-name="Chicken Caesar Salat" data-allergene="A C">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>701</span> Chicken Caesar Salat</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>A</b>Glutenhaltiges Getreide</li><li><b>C</b>Eier</li></ul></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-salate-gemischter-salat" data-nr="702" data-name="Gemischter Salat" data-allergene="">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>702</span> Gemischter Salat</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><span class="keine">Enthält keines der 14 Hauptallergene.</span></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-salate-petersilien-salat" data-nr="703" data-name="Petersilien Salat" data-allergene="">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>703</span> Petersilien Salat</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><span class="keine">Enthält keines der 14 Hauptallergene.</span></dd>
+            
+          </dl>
+        </li>
+      </ul>
+    </section>
+    <section class="agkat" aria-labelledby="ag-beilagen">
+      <h2 id="ag-beilagen">Beilagen</h2>
+      <ul class="eintraege">
+        <li class="eintrag" id="ag-beilagen-frittierte-kartoffelchips" data-nr="751" data-name="Frittierte Kartoffelchips" data-allergene="">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>751</span> Frittierte Kartoffelchips</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><span class="keine">Enthält keines der 14 Hauptallergene.</span></dd>
+            
+          </dl>
+        </li>
+      </ul>
+    </section>
+    <section class="agkat" aria-labelledby="ag-dips-und-dressings">
+      <h2 id="ag-dips-und-dressings">Dips &amp; Dressings</h2>
+      <ul class="eintraege">
+        <li class="eintrag" id="ag-dips-und-dressings-curry-dip" data-nr="801" data-name="Curry-Dip" data-allergene="C G">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>801</span> Curry-Dip</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>C</b>Eier</li><li><b>G</b>Milch / Laktose</li></ul></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-dips-und-dressings-tzatziki" data-nr="802" data-name="Tzatziki" data-allergene="G">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>802</span> Tzatziki</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>G</b>Milch / Laktose</li></ul></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-dips-und-dressings-hummus" data-nr="803" data-name="Hummus" data-allergene="N">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>803</span> Hummus</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>N</b>Sesam</li></ul></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-dips-und-dressings-knoblauch-dip" data-nr="804" data-name="Knoblauch-Dip" data-allergene="G">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>804</span> Knoblauch-Dip</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>G</b>Milch / Laktose</li></ul></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-dips-und-dressings-spicy-dip" data-nr="805" data-name="Spicy Dip" data-allergene="">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>805</span> Spicy Dip</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><span class="keine">Enthält keines der 14 Hauptallergene.</span></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-dips-und-dressings-pikant-dip" data-nr="806" data-name="Pikant-Dip" data-allergene="G">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>806</span> Pikant-Dip</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>G</b>Milch / Laktose</li></ul></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-dips-und-dressings-sesam-dip" data-nr="807" data-name="Sesam-Dip" data-allergene="G N">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>807</span> Sesam-Dip</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>G</b>Milch / Laktose</li><li><b>N</b>Sesam</li></ul></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-dips-und-dressings-olivenoel-dressing" data-nr="808" data-name="Olivenöl-Dressing" data-allergene="">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>808</span> Olivenöl-Dressing</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><span class="keine">Enthält keines der 14 Hauptallergene.</span></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-dips-und-dressings-balsamico-dressing" data-nr="809" data-name="Balsamico-Dressing" data-allergene="O">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>809</span> Balsamico-Dressing</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>O</b>Sulfite</li></ul></dd>
+            
+          </dl>
+        </li>
+      </ul>
+    </section>
+    <section class="agkat" aria-labelledby="ag-extras">
+      <h2 id="ag-extras">Extras</h2>
+      <ul class="eintraege">
+        <li class="eintrag" id="ag-extras-kaese" data-nr="851" data-name="Käse" data-allergene="G">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>851</span> Käse</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><ul class="badges"><li><b>G</b>Milch / Laktose</li></ul></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-extras-sucuk" data-nr="852" data-name="Sucuk" data-allergene="">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>852</span> Sucuk</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><span class="keine">Enthält keines der 14 Hauptallergene.</span></dd>
+            <dt>Zusatzstoffe</dt>
+            <dd>2 mit Konservierungsstoff</dd>
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-extras-tomaten" data-nr="853" data-name="Tomaten" data-allergene="">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>853</span> Tomaten</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><span class="keine">Enthält keines der 14 Hauptallergene.</span></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-extras-zwiebeln-mit-petersilie" data-nr="854" data-name="Zwiebeln mit Petersilie" data-allergene="">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>854</span> Zwiebeln mit Petersilie</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><span class="keine">Enthält keines der 14 Hauptallergene.</span></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-extras-rucola" data-nr="855" data-name="Rucola" data-allergene="">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>855</span> Rucola</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><span class="keine">Enthält keines der 14 Hauptallergene.</span></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-extras-essiggurken" data-nr="856" data-name="Essiggurken" data-allergene="">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>856</span> Essiggurken</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><span class="keine">Enthält keines der 14 Hauptallergene.</span></dd>
+            <dt>Zusatzstoffe</dt>
+            <dd>2 mit Konservierungsstoff</dd>
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-extras-lift-eingelegte-weissrueben" data-nr="857" data-name="Lift (eingelegte Weißrüben)" data-allergene="">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>857</span> Lift (eingelegte Weißrüben)</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><span class="keine">Enthält keines der 14 Hauptallergene.</span></dd>
+            
+          </dl>
+        </li>
+      </ul>
+    </section>
+    <section class="agkat" aria-labelledby="ag-getraenke">
+      <h2 id="ag-getraenke">Getränke</h2>
+      <ul class="eintraege">
+        <li class="eintrag" id="ag-getraenke-fritz-limo-0-33-l" data-nr="951" data-name="Fritz Limo 0,33 l" data-allergene="">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>951</span> Fritz Limo 0,33 l</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><span class="keine">Enthält keines der 14 Hauptallergene.</span></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-getraenke-fritz-spritz-bio-apfelschorle-0-33-l" data-nr="952" data-name="Fritz Spritz Bio Apfelschorle 0,33 l" data-allergene="">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>952</span> Fritz Spritz Bio Apfelschorle 0,33 l</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><span class="keine">Enthält keines der 14 Hauptallergene.</span></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-getraenke-fritz-kola-0-33-l" data-nr="953" data-name="Fritz Kola 0,33 l" data-allergene="">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>953</span> Fritz Kola 0,33 l</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><span class="keine">Enthält keines der 14 Hauptallergene.</span></dd>
+            <dt>Zusatzstoffe</dt>
+            <dd>1 mit Farbstoff, 11 koffeinhaltig. Erhöhter Koffeingehalt. Für Kinder und schwangere oder stillende Frauen nicht empfohlen.</dd>
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-getraenke-fritz-kola-super-zero-0-33-l" data-nr="954" data-name="Fritz Kola Super Zero 0,33 l" data-allergene="">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>954</span> Fritz Kola Super Zero 0,33 l</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><span class="keine">Enthält keines der 14 Hauptallergene.</span></dd>
+            <dt>Zusatzstoffe</dt>
+            <dd>1 mit Farbstoff, 9 mit Süßungsmittel(n), 10 enthält eine Phenylalaninquelle, 11 koffeinhaltig. Erhöhter Koffeingehalt. Für Kinder und schwangere oder stillende Frauen nicht empfohlen.</dd>
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-getraenke-red-bull-0-25-l" data-nr="955" data-name="Red Bull 0,25 l" data-allergene="">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>955</span> Red Bull 0,25 l</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><span class="keine">Enthält keines der 14 Hauptallergene.</span></dd>
+            <dt>Zusatzstoffe</dt>
+            <dd>1 mit Farbstoff, 11 koffeinhaltig. Erhöhter Koffeingehalt. Für Kinder und schwangere oder stillende Frauen nicht empfohlen.</dd>
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-getraenke-red-bull-sugarfree-0-25-l" data-nr="956" data-name="Red Bull Sugarfree 0,25 l" data-allergene="">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>956</span> Red Bull Sugarfree 0,25 l</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><span class="keine">Enthält keines der 14 Hauptallergene.</span></dd>
+            <dt>Zusatzstoffe</dt>
+            <dd>1 mit Farbstoff, 9 mit Süßungsmittel(n), 10 enthält eine Phenylalaninquelle, 11 koffeinhaltig. Erhöhter Koffeingehalt. Für Kinder und schwangere oder stillende Frauen nicht empfohlen.</dd>
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-getraenke-vilsa-0-25-l" data-nr="957" data-name="Vilsa 0,25 l" data-allergene="">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>957</span> Vilsa 0,25 l</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><span class="keine">Enthält keines der 14 Hauptallergene.</span></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-getraenke-tee-0-2-l" data-nr="958" data-name="Tee 0,2 l" data-allergene="">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>958</span> Tee 0,2 l</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><span class="keine">Enthält keines der 14 Hauptallergene.</span></dd>
+            
+          </dl>
+        </li>
+        <li class="eintrag" id="ag-getraenke-kaffee-0-2-l" data-nr="959" data-name="Kaffee 0,2 l" data-allergene="">
+          <h3><span class="eintrag__nr"><span class="vh">Nr. </span>959</span> Kaffee 0,2 l</h3>
+          <dl>
+            <dt>Allergene</dt>
+            <dd><span class="keine">Enthält keines der 14 Hauptallergene.</span></dd>
+            
+          </dl>
+        </li>
+      </ul>
+    </section>
+  </div>
+  <p class="leer" id="leer" hidden>Kein Gericht passt zu Ihrer Auswahl. Entfernen Sie einen Filter oder ändern Sie den Suchbegriff.</p>
+
+  <p class="kategorie__hinweis">Unsere Menüs (Frühstücks-Manakish, Dürüm Menü, Familien Box) bestehen aus Gerichten und Getränken dieser Liste. Es gelten die Angaben der einzelnen Bestandteile.</p>
+
+  <div class="legende" id="legende">
+    <section aria-labelledby="leg-allergene">
+      <h2 id="leg-allergene">Die 14 Hauptallergene</h2>
+      <ul>
+        <li><b>A</b><span>Glutenhaltiges Getreide</span></li>
+        <li><b>B</b><span>Krebstiere</span></li>
+        <li><b>C</b><span>Eier</span></li>
+        <li><b>D</b><span>Fisch</span></li>
+        <li><b>E</b><span>Erdnüsse</span></li>
+        <li><b>F</b><span>Soja</span></li>
+        <li><b>G</b><span>Milch / Laktose</span></li>
+        <li><b>H</b><span>Schalenfrüchte (Nüsse)</span></li>
+        <li><b>L</b><span>Sellerie</span></li>
+        <li><b>M</b><span>Senf</span></li>
+        <li><b>N</b><span>Sesam</span></li>
+        <li><b>O</b><span>Sulfite</span></li>
+        <li><b>P</b><span>Lupinen</span></li>
+        <li><b>R</b><span>Weichtiere</span></li>
+      </ul>
+    </section>
+    <section aria-labelledby="leg-zusatz">
+      <h2 id="leg-zusatz">Zusatzstoffe</h2>
+      <ul>
+        <li><b>1</b><span>mit Farbstoff</span></li>
+        <li><b>2</b><span>mit Konservierungsstoff</span></li>
+        <li><b>3</b><span>mit Antioxidationsmittel</span></li>
+        <li><b>4</b><span>mit Geschmacksverstärker</span></li>
+        <li><b>5</b><span>geschwefelt</span></li>
+        <li><b>6</b><span>geschwärzt</span></li>
+        <li><b>7</b><span>gewachst</span></li>
+        <li><b>8</b><span>mit Phosphat</span></li>
+        <li><b>9</b><span>mit Süßungsmittel(n)</span></li>
+        <li><b>10</b><span>enthält eine Phenylalaninquelle</span></li>
+        <li><b>11</b><span>koffeinhaltig</span></li>
+        <li><b>12</b><span>chininhaltig</span></li>
+      </ul>
+      <p class="kategorie__hinweis">Getränke mit Zusatzstoff 11: Erhöhter Koffeingehalt. Für Kinder und schwangere oder stillende Frauen nicht empfohlen.</p>
+    </section>
+  </div>
+
+  <p class="kategorie__hinweis">Fragen zu Zutaten? Rufen Sie uns an unter <a href="tel:+4942149151178">0421 49151178</a> oder sprechen Sie unser Personal an. Zur <a href="/#speisekarte">Speisekarte mit Preisen</a>.</p>
+</main>
+<footer class="dunkel fuss">
+  <div class="innen fuss__innen">
+    <p>&copy; 2026 Al-Medina UG (haftungsbeschränkt)</p>
+    <nav aria-label="Rechtliches">
+      <ul>
+        <li><a href="/impressum/">Impressum</a></li>
+        <li><a href="/datenschutz/">Datenschutz</a></li>
+        <li><a href="/allergene/">Allergene</a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+<script src="/allergene/filter.js" defer></script>
+</body>
+</html>
