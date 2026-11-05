@@ -12,6 +12,6 @@ Fertige statische Website für Al-Medina, Restaurant und Fleischerei in Bremen-V
 
 ## Hinweise
 
-- Impressum und Datenschutz enthalten noch rot markierte Platzhalter (E-Mail-Adresse, Hoster). Vor dem Livegang ergänzen lassen.
+- Gehostet wird im **Pro-Tarif** von Vercel mit der Region Frankfurt (fra1). Der kostenlose Hobby-Tarif ist laut Vercel nur für private, nicht kommerzielle Nutzung, und der Vertrag zur Auftragsverarbeitung, auf den die Datenschutzerklärung verweist, gilt nur im Pro- und Enterprise-Tarif.
 - Änderungen nicht hier vornehmen, sondern im Ursprungsprojekt neu erzeugen und diesen Ordner ersetzen.
 - Schriften: Big Shoulders Display, Figtree und IBM Plex Mono unter der SIL Open Font License, Lizenztexte in `fonts/lizenzen/`.
